@@ -54,12 +54,16 @@
 			size = 6
 		}
 		effect = {
-			add_gold = 99999
-			add_prestige = 5000
-			add_piety = 5000
+			add_gold = 55555
+			add_prestige = 2500
+			add_piety = 2500
 			add_prestige_level = 4
 			add_piety_level = 4
 			#add_dynasty_prestige = 9999
+			if = {
+				limit = { has_realm_law = crown_authority_0 }
+				add_realm_law = crown_authority_2
+			}
 		}
 	}
 	886.8.29 = {
@@ -1960,6 +1964,16 @@
 	father = 145164
 	847.1.1 = {
 		birth = "847.1.1"
+	}
+	867.1.1 = {
+		add_spouse = 145130
+		effect = {
+			create_alliance = {
+				target = character:1700
+				allied_through_owner = this
+				allied_through_target = character:145130
+			}
+		}
 	}
 	908.1.1 = {
 		death = "908.1.1"
@@ -6843,8 +6857,24 @@
 	trait = strong
 	trait = lifestyle_blademaster
 	father = 145147
-	855.1.1 = {
-		birth = "855.1.1"
+	851.1.1 = {
+		birth = "851.1.1"
+	}
+	867.1.1 = {
+		add_spouse = 1704
+		set_relation_friend = { reason = friend_generic_history target = character:ckbr0002 }
+		effect = {
+			create_alliance = {
+				target = character:1700
+				allied_through_owner = this
+				allied_through_target = character:1704
+			}
+			create_alliance = {
+				target = character:ckbr0002
+				allied_through_owner = this
+				allied_through_target = character:ckbr0002
+			}
+		}
 	}
 	905.1.1 = {
 		death = "905.1.1"
@@ -10203,8 +10233,8 @@
 	trait = whole_of_body
 	father = 145129
 	mother = 145131
-	844.11.1 = {
-		birth = "844.11.1"
+	848.11.1 = {
+		birth = "848.11.1"
 	}
 	867.1.1 = {
 		trait = devoted
@@ -10240,6 +10270,7 @@
 70555 = {
 	name = "Ignatios"
 	dynasty = 644 #8644
+	#dna = 1732_konstantinos_x
 	martial = 5
 	diplomacy = 6
 	intrigue = 5
@@ -16857,9 +16888,55 @@
 	dynasty = 101132
 	religion = "orthodox"
 	culture = "greek"
+	father = 184026
+	trait = whole_of_body
+	trait = education_martial_3
+	trait = reaver
+	trait = brave
 
 	836.1.1 = {
 		birth = "836.1.1"
+	}
+	866.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					government_allows = administrative
+				}
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 3
+				}
+			}
+		}
+		create_maa_regiment = {
+			type = akritai
+			check_can_recruit = no
+			size = 3
+		}
+		create_maa_regiment = {
+			type = skoutatoi
+			check_can_recruit = no
+			size = 1
+		}
+	}
+	867.1.1 = {
+		add_spouse = 26113
+		set_relation_friend = { reason = friend_generic_history target = character:145128 }
+		effect = {
+			create_alliance = {
+				target = character:145128
+				allied_through_owner = this
+				allied_through_target = character:26113
+			}
+		}
+		effect = {
+			create_alliance = {
+				target = character:184026
+				allied_through_owner = this
+				allied_through_target = character:184026
+			}
+		}
 	}
 	896.1.1 = {
 		death = "896.1.1"
@@ -16989,6 +17066,29 @@
 	829.1.1 = {
 		birth = "829.1.1"
 	}
+	867.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					government_allows = administrative
+				}
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 3
+				}
+			}
+		}
+		create_maa_regiment = {
+			type = akritai
+			check_can_recruit = no
+			size = 3
+		}
+		create_maa_regiment = {
+			type = skoutatoi
+			check_can_recruit = no
+			size = 1
+		}
+	}
 	889.1.1 = {
 		death = "889.1.1"
 	}
@@ -17043,6 +17143,7 @@ ckbr0001 = {
 		birth = "830.1.1"
 	}
 	855.6.1 = {
+		set_relation_rival = { target = character:163096 }
 		trait = eunuch_1
 		create_maa_regiment = {
 			type = akritai
@@ -17074,6 +17175,8 @@ ckbr0002 = {
 	trait = whole_of_body
 	trait = lifestyle_hunter
 	trait = logistician
+	trait = faith_warrior
+	trait = reaver
 
 
 	840.1.1 = {
@@ -17126,8 +17229,8 @@ ckbr0002 = {
 	trait = intellect_good_1
 	father = 145129
 	mother = 145131
-	852.1.1 = {
-		birth = "852.1.1"
+	850.1.1 = {
+		birth = "850.1.1"
 		employer = 1700
 	}
 }
@@ -17160,8 +17263,8 @@ ckbr0002 = {
 	trait = physique_good_1
 	father = 145129
 	mother = 145131
-	852.1.1 = {
-		birth = "852.1.1"
+	850.1.1 = {
+		birth = "850.1.1"
 		employer = 1700
 	}
 	920.1.1 = {
@@ -17182,8 +17285,8 @@ ckbr0002 = {
 	trait = whole_of_body
 	father = 145129
 	mother = 145131
-	852.1.1 = {
-		birth = "852.1.1"
+	850.1.1 = {
+		birth = "850.1.1"
 		employer = 1700
 	}
 	879.9.3 = {
@@ -17241,10 +17344,10 @@ ckbr0002 = {
 	religion = "orthodox"
 	culture = "greek"
 	father = 145136
-	840.1.1 = {
-		birth = "840.1.1"
+	846.1.1 = {
+		birth = "846.1.1"
 	}
-	867.1.1 = {
+	866.1.1 = {
 		effect = {
 			if = {
 				limit = {
@@ -17254,6 +17357,16 @@ ckbr0002 = {
 					type = administrative_themes
 					level = 2
 				}
+			}
+		}
+	}
+	867.1.1 = {
+		add_spouse = 145133
+		effect = {
+			create_alliance = {
+				target = character:1700
+				allied_through_owner = this
+				allied_through_target = character:145133
 			}
 		}
 	}
@@ -17422,10 +17535,14 @@ ckbr0002 = {
 	trait = whole_of_body
 	trait = lifestyle_blademaster
 	trait = education_martial_5
+	trait = strategist
+	trait = faith_warrior
+	trait = reaver
 	830.1.1 = {
 		birth = "830.1.1"
 	}
-	867.1.1 = {
+	866.1.1 = {
+		set_relation_rival = { target = character:159738 }
 		set_relation_friend = { reason = friend_generic_history target = character:1700 }
 		create_maa_regiment = {
 			type = akritai
@@ -17446,6 +17563,20 @@ ckbr0002 = {
 					type = administrative_themes
 					level = 3
 				}
+			}
+		}
+	}
+	867.1.1 = {
+		effect = {
+			create_alliance = {
+				target = character:1700
+				allied_through_owner = this
+				allied_through_target = character:1700
+			}
+			create_alliance = {
+				target = character:ckbr0002
+				allied_through_owner = this
+				allied_through_target = character:ckbr0002
 			}
 		}
 	}
@@ -17713,6 +17844,15 @@ ckbr0002 = {
 	trait = education_martial_3
 	810.1.1 = {
 		birth = "810.1.1"
+	}
+	867.1.1 = {
+		effect = {
+			create_alliance = {
+				target = character:1700
+				allied_through_owner = this
+				allied_through_target = character:1700
+			}
+		}
 	}
 	870.1.1 = {
 		death = "870.1.1"
@@ -18102,6 +18242,24 @@ ckbr0002 = {
 	culture = "greek"
 	839.1.1 = {
 		birth = "839.1.1"
+	}
+	867.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					government_allows = administrative
+				}
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 3
+				}
+			}
+		}
+		create_maa_regiment = {
+			type = akritai
+			check_can_recruit = no
+			size = 2
+		}
 	}
 	891.1.1 = {
 		death = "891.1.1"
@@ -21531,6 +21689,29 @@ ckbr0002 = {
 	}
 	842.2.19 = {
 		religion = "orthodox"
+	}
+	867.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					government_allows = administrative
+				}
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 3
+				}
+			}
+		}
+		create_maa_regiment = {
+			type = akritai
+			check_can_recruit = no
+			size = 3
+		}
+		create_maa_regiment = {
+			type = skoutatoi
+			check_can_recruit = no
+			size = 1
+		}
 	}
 	871.1.1 = {
 		death = "871.1.1"

@@ -5028,8 +5028,9 @@ c_szerem = {
 	852.1.1 = {
 		holder = 70382 #Boris
 	}
-	860.1.1 = {
-		holder = 168067
+	867.1.1 = {
+		liege = "k_serbia"
+		holder = 167869
 	}
 	1066.1.1 = {
 		liege = "d_vidin"

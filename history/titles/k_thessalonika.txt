@@ -1026,6 +1026,14 @@ d_aegean_islands = {
 					change_government = feudal_government
 				}
 			}
+			holder = {
+				create_maa_regiment = {
+					type = skoutatoi
+					check_can_recruit = no 
+					title = title:d_aegean_islands
+					size = 1
+				}
+			}
 		}
 	}
 	762.1.1 = {
@@ -1554,6 +1562,32 @@ d_thessalonika = {
 					change_government = feudal_government
 				}
 			}
+			holder = {
+				create_maa_regiment = {
+					type = akritai
+					check_can_recruit = no 
+					title = title:d_thessalonika
+					size = 1
+				}
+				create_maa_regiment = {
+					type = skoutatoi
+					check_can_recruit = no 
+					title = title:d_thessalonika
+					size = 1
+				}
+				create_maa_regiment = {
+					type = ballistrai
+					check_can_recruit = no 
+					title = title:d_thessalonika
+					size = 1
+				}
+				create_maa_regiment = {
+					type = cataphract
+					check_can_recruit = no 
+					title = title:d_thessalonika
+					size = 1
+				}
+			}
 		}
 		liege = "e_byzantium"
 	}
@@ -1801,7 +1835,7 @@ c_veria = {
 		holder = 145814
 	}
 	855.1.1 = {
-		holder = 145129
+		holder = 145129 #145185
 	}
 	1050.1.1 = {
 		holder = 1732

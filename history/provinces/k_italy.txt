@@ -139,7 +139,7 @@
 ##d_piedmonte ###################################
 ###c_monferrato
 2469 = {	#ASTI
-	culture = italian
+	culture = cisalpine
 	religion = catholic
 	holding = castle_holding
 }
@@ -156,7 +156,7 @@
 
 ###c_turin
 2041 = {	#TURIN
-	culture = italian
+	culture = cisalpine
 	religion = catholic
 	holding = castle_holding
 	867.1.1 = {
@@ -184,7 +184,7 @@
 
 ###c_novara
 2471 = {	#NOVARA
-	culture = italian
+	culture = cisalpine
 	religion = catholic
 	holding = castle_holding
 }
@@ -200,7 +200,7 @@
 
 ###c_cuneo
 2043 = {	#CUNEO
-	culture = italian
+	culture = cisalpine
 	religion = catholic
 	holding = castle_holding
 }
@@ -222,7 +222,7 @@
 ##d_lombardia ###################################
 ###c_lombardia
 2482 = {	#MILAN
-	culture = italian
+	culture = cisalpine
 	religion = catholic
 	holding = castle_holding
 	867.1.1 = {
@@ -255,7 +255,7 @@
 
 ###c_brescia
 2494 = {	#BRESCIA
-	culture = italian
+	culture = cisalpine
 	religion = catholic
 	holding = castle_holding
 	867.1.1 = {
@@ -280,7 +280,7 @@
 
 ###c_como
 2477 = {	#COMO
-	culture = italian
+	culture = cisalpine
 	religion = catholic
 	holding = castle_holding
 }
@@ -293,7 +293,7 @@
 
 ###c_trent
 2499 = {	#TRENTO
-	culture = italian
+	culture = cisalpine
 	religion = catholic
 	holding = castle_holding
 	867.1.1 = {
@@ -315,7 +315,7 @@
 
 ###c_pavia
 2475 = {	#PAVIA
-	culture = italian
+	culture = cisalpine
 	religion = catholic
 	holding = castle_holding
 	867.1.1 = {
@@ -344,7 +344,7 @@
 
 ###c_cremona
 2491 = {	#CREMONA
-	culture = italian
+	culture = cisalpine
 	religion = catholic
 	holding = castle_holding
 }
@@ -383,7 +383,7 @@
 
 ###c_tortona
 2483 = {	#TORTONA
-	culture = italian
+	culture = cisalpine
 	religion = catholic
 	holding = castle_holding
 }

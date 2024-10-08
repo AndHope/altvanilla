@@ -4037,6 +4037,34 @@ e_byzantium = {
 		holder = 70490
 	}
 	866.9.24 = {
+		effect = {
+			holder = {
+				create_maa_regiment = {
+					type = varangian_guards
+					check_can_recruit = no 
+					title = title:e_byzantium
+					size = 4
+				}
+				create_maa_regiment = {
+					type = varangian_guards
+					check_can_recruit = no 
+					title = title:e_byzantium
+					size = 4
+				}
+				create_maa_regiment = {
+					type = cataphract
+					check_can_recruit = no 
+					title = title:e_byzantium
+					size = 4
+				}
+				create_maa_regiment = {
+					type = cataphract
+					check_can_recruit = no 
+					title = title:e_byzantium
+					size = 4
+				}
+			}
+		}
 		holder = 1700
 	}
 	#867.9.24 = { # The historical date, but we want the Macedonian dynasty in place at the bookmark start

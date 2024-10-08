@@ -5884,6 +5884,12 @@
 	830.1.1 = {
 		birth = "830.1.1"
 	}
+	862.1.1 = {
+		employer = 159738
+		trait = faith_warrior
+		add_pressed_claim = title:d_antioch
+		add_pressed_claim = title:c_antiocheia
+	}
 	890.1.1 = {
 		death = "890.1.1"
 	}
@@ -5938,11 +5944,34 @@
 	name = "Abu_l_Husayn"
 	religion = "ashari"
 	culture = "levantine"
+	trait = strong
+	trait = physique_good_1
+	trait = whole_of_body
+	trait = faith_warrior
+	trait = education_martial_4
+	trait = reaver
+	trait = brave
+	trait = diligent
 	dynasty = 598
 	835.1.1 = {
 		birth = "835.1.1"
 	}
 	867.1.1 = {
+		create_maa_regiment = {
+			type = horse_archers
+			check_can_recruit = no
+			size = 2
+		}
+		create_maa_regiment = {
+			type = camel_rider
+			check_can_recruit = no
+			size = 2
+		}
+		create_maa_regiment = {
+			type = mubarizun
+			check_can_recruit = no
+			size = 2
+		}
 		effect = {
 			spawn_army = {
 				name = event_troop_default_name
@@ -6016,7 +6045,40 @@
 		birth = "839.1.1"
 	}
 	867.1.1 = {
+		trait = strong
+		trait = physique_good_1
+		trait = whole_of_body
+		trait = faith_warrior
+		trait = education_martial_4
+		trait = strategist
+		trait = brave
+		trait = diligent
+		trait = ambitious # "inordinately ambitious"
+		trait = shrewd # "a ready knowledge of nearly the whole of history and also practical experience of almost everything in daily affairs"
+	
+		add_pressed_claim = title:d_cilicia
+		add_pressed_claim = title:d_antioch
+		add_pressed_claim = title:c_antiocheia
+		add_pressed_claim = title:c_alexandretta
+		add_pressed_claim = title:c_cilicia
+		add_pressed_claim = title:c_tall_hamid
+		add_pressed_claim = title:c_lycandus
 		effect = {
+			create_maa_regiment = {
+				type = horse_archers
+				check_can_recruit = no
+				size = 2
+			}
+			create_maa_regiment = {
+				type = camel_rider
+				check_can_recruit = no
+				size = 2
+			}
+			create_maa_regiment = {
+				type = mubarizun
+				check_can_recruit = no
+				size = 2
+			}
 			spawn_army = {
 				name = event_troop_default_name
 				men_at_arms = {
@@ -7524,11 +7586,34 @@
 	dynasty = 1029123
 	religion = "ashari"
 	culture = "levantine"
+	trait = strong
+	trait = physique_good_1
+	trait = whole_of_body
+	trait = faith_warrior
+	trait = education_martial_4
+	trait = reaver
+	trait = brave
+	trait = diligent
 	father = 159732
 	841.1.1 = {
 		birth = yes
 	}
 	867.1.1 = {
+		create_maa_regiment = {
+			type = horse_archers
+			check_can_recruit = no
+			size = 2
+		}
+		create_maa_regiment = {
+			type = camel_rider
+			check_can_recruit = no
+			size = 2
+		}
+		create_maa_regiment = {
+			type = mubarizun
+			check_can_recruit = no
+			size = 2
+		}
 		effect = {
 			spawn_army = {
 				name = event_troop_default_name
@@ -8054,10 +8139,33 @@ levantine000003 = {
 	religion = ashari
 	father = levantine000002
 	culture = levantine
+	trait = strong
+	trait = physique_good_1
+	trait = whole_of_body
+	trait = faith_warrior
+	trait = education_martial_4
+	trait = reaver
+	trait = brave
+	trait = diligent
 	841.1.1 = {
 		birth = yes
 	}
 	867.1.1 = {
+		create_maa_regiment = {
+			type = horse_archers
+			check_can_recruit = no
+			size = 2
+		}
+		create_maa_regiment = {
+			type = camel_rider
+			check_can_recruit = no
+			size = 2
+		}
+		create_maa_regiment = {
+			type = mubarizun
+			check_can_recruit = no
+			size = 2
+		}
 		effect = {
 			spawn_army = {
 				name = event_troop_default_name
@@ -8723,7 +8831,9 @@ levantine000010 = { #fictional ruler of Banu Kilab
 		add_pressed_claim = title:d_edessa # Mustazhirids
 		add_pressed_claim = title:d_azerbaijan # Yazidids
 		capital = c_baghdad #Capital at the time
-
+		add_pressed_claim = title:d_antioch
+		add_pressed_claim = title:c_antioch
+		set_relation_friend = { reason = friend_generic_history target = character:34014 }
 		add_character_flag = {
 			flag = recent_nation_fracturing_faction_war
 			years = faction_nation_fracturing_war_defeat_cooldown
@@ -8734,11 +8844,41 @@ levantine000010 = { #fictional ruler of Banu Kilab
 		}
 		
 		effect = {
+			create_maa_regiment = {
+				type = horse_archers
+				check_can_recruit = no
+				size = 8
+			}
+			create_maa_regiment = {
+				type = camel_rider
+				check_can_recruit = no
+				size = 8
+			}
+			create_maa_regiment = {
+				type = camel_rider
+				check_can_recruit = no
+				size = 8
+			}
+			create_maa_regiment = {
+				type = mubarizun
+				check_can_recruit = no
+				size = 8
+			}
+			create_maa_regiment = {
+				type = mubarizun
+				check_can_recruit = no
+				size = 8
+			}
 			add_gold = 9000
 			add_prestige = 2000
 			add_piety = 3500
 			add_prestige_level = 3
-			add_piety_level = 3
+			add_piety_level = 4
+
+			if = {
+				limit = { has_realm_law = crown_authority_0 }
+				add_realm_law = crown_authority_2
+			}
 
 			spawn_army = {
 				name = event_troop_default_name
@@ -9665,7 +9805,7 @@ levantine000010 = { #fictional ruler of Banu Kilab
 	culture = andalusian
 	trait = sayyid
 	trait = poet
-	trait = education_martial_1
+	trait = education_stewardship_3
 
 	father = 73682 # Sultan Abd al-Rahman II of Andalusia
 	mother = levantine0032 # Sultana Buheyr
@@ -9674,6 +9814,26 @@ levantine000010 = { #fictional ruler of Banu Kilab
 		birth = yes
 	}
 	842.1.1 = {
+		create_maa_regiment = {
+			type = caballero
+			check_can_recruit = no
+			size = 8
+		}
+		create_maa_regiment = {
+			type = caballero
+			check_can_recruit = no
+			size = 8
+		}
+		create_maa_regiment = {
+			type = camel_rider
+			check_can_recruit = no
+			size = 8
+		}
+		create_maa_regiment = {
+			type = mubarizun
+			check_can_recruit = no
+			size = 8
+		}
 		add_spouse = 73927 # Ushar (andalusian.txt)
 		effect = {
 			add_gold = 9999
@@ -9681,6 +9841,10 @@ levantine000010 = { #fictional ruler of Banu Kilab
 			add_piety = 5000
 			add_prestige_level = 5
 			add_piety_level = 5
+			if = {
+				limit = { has_realm_law = crown_authority_0 }
+				add_realm_law = crown_authority_2
+			}
 		}
 	}
 	855.1.1 = {

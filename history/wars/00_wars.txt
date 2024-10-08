@@ -154,24 +154,7 @@ war = {
 }
 
 #Sons of Lothbrok Invasion of Lothian
-war = {
-	name = "war_867_Lothbrok_Invasion_of_Lothian"
-	start_date = 865.1.1
-	end_date = 867.3.21
-	targeted_titles = {
-		d_lothian
-		d_galloway
-	}
-	casus_belli = sons_of_lothbrok_invasion_cb
-	attackers = { 163111 }
-	defenders = { 163103 }
-
-	163111 = {
-		865.1.1 = {
-			location = 1596
-		}
-	}
-}
+#combined into danelaw
 
 #Sons of Lothbrok Invasion of Northumberland
 war = {
@@ -181,9 +164,11 @@ war = {
 	targeted_titles = {
 		d_northumberland
 		d_lancaster
+		d_lothian
+		d_galloway
 	}
 	casus_belli = sons_of_lothbrok_invasion_cb
-	attackers = { 163112 163108 }
+	attackers = { 163112 163111 } #removed 163108 so the ai can focus on making swedan
 	defenders = { 163103 163102 33358 }
 
 	163112 = {

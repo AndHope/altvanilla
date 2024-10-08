@@ -935,14 +935,14 @@ d_duklja = {
 
 
 c_duklja = {
-	#330.1.1 = {
-	#	liege = "d_duklja"
-	#}
+	330.1.1 = {
+		liege = "d_rashka"
+	}
 	#768.1.1 = {
 	#	holder = 167858
 	#}
 	865.1.1 = {
-		liege = 0
+		liege = k_serbia
 		holder = 303450	#fictional serbian Miroslav
 	}
 	1060.1.1 = {
@@ -1025,7 +1025,7 @@ c_pomorje = {
 	#}
 	865.1.1 = {
 		liege = 0
-		holder = 303450	#fictional serbian Miroslav
+		holder = 145124
 	}
 	1060.1.1 = {
 		liege = d_duklja
@@ -1099,14 +1099,14 @@ c_pomorje = {
 
 
 c_travunia = {
-	#330.1.1 = {
-	#	liege = "d_duklja"
-	#}
+	330.1.1 = {
+		liege = "d_rashka"
+	}
 	#768.1.1 = {
 	#	holder = 167858
 	#}
 	865.1.1 = {
-		liege = 0
+		liege = k_serbia
 		holder = 303449	#fictional serbian Uros
 	}
 	1060.1.1 = {

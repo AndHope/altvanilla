@@ -5,7 +5,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 5
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = education_diplomacy_2
 	father = 20486
@@ -24,7 +24,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = craven
 	trait = deceitful
@@ -47,7 +47,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 5
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	disallow_random_traits = yes
 	trait = bossy
@@ -72,7 +72,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = chaste
 	trait = education_intrigue_1
@@ -91,7 +91,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = diligent
 	trait = brave
@@ -113,7 +113,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = honest
 	trait = calm
@@ -200,7 +200,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = greedy
 	trait = gluttonous
@@ -227,7 +227,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 7
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "vlach"
 	trait = cynical
 	trait = education_martial_3
@@ -247,7 +247,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 217503
 	1165.1.1 = {
@@ -265,7 +265,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 3
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = arbitrary
 	trait = education_stewardship_2
@@ -289,7 +289,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 5
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 215004
 	mother = 217504
@@ -308,7 +308,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 215004
 	mother = 217504
@@ -328,7 +328,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 4
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = diligent
 	trait = lustful
@@ -345,7 +345,7 @@
 31160 = {
 	name = "Ivan" #Ivan II
 	dynasty = 185
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 217500
 	1190.1.1 = {
@@ -366,7 +366,7 @@
 	name = "Marija"
 	female = yes
 	dynasty = 185
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = bastard
 	father = 31160
@@ -382,7 +382,7 @@
 	name = "Beloslava"
 	female = yes
 	dynasty = 185
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = bastard
 	father = 31160
@@ -399,7 +399,7 @@
 	name = "Elena"
 	female = yes
 	dynasty = 185
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 31160
 	mother = 98026
@@ -415,7 +415,7 @@
 	name = "Tamara"
 	female = yes
 	dynasty = 185
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 31160
 	mother = 98026
@@ -430,7 +430,7 @@
 31165 = {
 	name = "Koloman" #Koloman I
 	dynasty = 185
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 31160
 	mother = 98026
@@ -445,7 +445,7 @@
 31166 = {
 	name = "Mihail" #Mihail I
 	dynasty = 185
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 31160
 	mother = 125713
@@ -461,7 +461,7 @@
 	name = "Teodora"
 	female = yes
 	dynasty = 185
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 31160
 	mother = 125713
@@ -477,7 +477,7 @@
 	name = "Marija"
 	female = yes
 	dynasty = 185
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 31160
 	mother = 125713
@@ -493,7 +493,7 @@
 	name = "Aleksandr"
 	# AKA: Aleksii
 	dynasty = 185
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 217500
 	1192.1.1 = {
@@ -507,7 +507,7 @@
 31170 = {
 	name = "Koloman" #Koloman I
 	dynasty = 185
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 31169
 	1210.1.1 = {
@@ -522,7 +522,7 @@
 	name = "Bilyana"
 	female = yes
 	dynasty = 185
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 217502
 	mother = 31184
@@ -538,7 +538,7 @@
 	name = "Marija"
 	female = yes
 	dynasty = 185
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 217502
 	mother = 31184
@@ -554,7 +554,7 @@
 	name = "Keramarija"
 	female = yes
 	dynasty = 185
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 31185
 	mother = 31168
@@ -569,7 +569,7 @@
 31185 = {
 	name = "Micho"
 	dynasty = 7202
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	1215.1.1 = {
 		birth = "1215.1.1"
@@ -585,7 +585,7 @@
 31186 = {
 	name = "Tihomir"
 	dynasty = 7203
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	1200.1.1 = {
 		birth = "1200.1.1"
@@ -598,7 +598,7 @@
 31187 = {
 	name = "Konstandin"
 	dynasty = 7203
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 31186
 	1230.1.1 = {
@@ -618,7 +618,7 @@
 31188 = {
 	name = "Mihail"
 	dynasty = 7203
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 31187
 	mother = 34419
@@ -634,7 +634,7 @@
 	name = "Marija" #real name unknown
 	female = yes
 	dynasty = 7203
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 31187
 	mother = 125744
@@ -652,7 +652,7 @@
 	# AKA: Eirene
 	female = yes
 	dynasty = 40
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 31195
 	1316.1.1 = {
@@ -666,7 +666,7 @@
 31192 = {
 	name = "Ivaljo"
 	dynasty = 7204
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	1240.1.1 = {
 		birth = "1240.1.1"
@@ -683,7 +683,7 @@
 	name = "Todor"
 	# AKA: Theodore Svetoslav
 	dynasty = 40
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 467530
 	1265.1.1 = {
@@ -702,7 +702,7 @@
 	name = "Elena"
 	female = yes
 	dynasty = 40
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 467530
 	1263.1.1 = {
@@ -717,7 +717,7 @@
 31195 = {
 	name = "Georgi"
 	dynasty = 40
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 31193
 	1290.1.1 = {
@@ -731,7 +731,7 @@
 31196 = {
 	name = "Ioasaph"
 	dynasty = 7205
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 467540
 	mother = 31189
@@ -746,7 +746,7 @@
 31197 = {
 	name = "Ioannes"
 	dynasty = 7205
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 467540
 	mother = 34288
@@ -761,7 +761,7 @@
 31198 = {
 	name = "Ivan"
 	dynasty = 7205
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	1240.1.2 = {
 		birth = "1240.1.2"
@@ -774,7 +774,7 @@
 31199 = {
 	name = "Radoslav"
 	dynasty = 7205
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 31198
 	1265.1.2 = {
@@ -788,7 +788,7 @@
 31200 = {
 	name = "Vojsil"
 	dynasty = 7205
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 31198
 	1266.1.2 = {
@@ -802,7 +802,7 @@
 31201 = {
 	name = "Georgi"
 	dynasty = 40
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	1220.1.1 = {
 		birth = "1220.1.1"
@@ -820,7 +820,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 728
 	982.1.2 = {
@@ -839,7 +839,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 720
 	980.1.1 = {
@@ -858,7 +858,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = education_stewardship_2
 	father = 730
@@ -878,7 +878,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 5
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = craven
 	trait = honest
@@ -905,7 +905,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 7
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = zealous
 	trait = generous
@@ -931,7 +931,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 4
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = brave
 	trait = education_intrigue_2
@@ -953,7 +953,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 8
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = arbitrary
 	trait = education_learning_3
@@ -974,7 +974,7 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 4
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = greedy
 	trait = education_intrigue_1
@@ -995,7 +995,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = greedy
 	trait = brave
@@ -1017,7 +1017,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 5
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = education_stewardship_3
 	1280.1.2 = {
@@ -1040,7 +1040,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 8
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = diligent
 	trait = greedy
@@ -1061,7 +1061,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 5
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = generous
 	trait = arrogant
@@ -1083,7 +1083,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 8
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = lustful
 	trait = lazy
@@ -1103,7 +1103,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = education_martial_2
 	father = 467500
@@ -1124,7 +1124,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 8
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = diligent
 	trait = education_stewardship_2
@@ -1146,7 +1146,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 5
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = calm
 	trait = temperate
@@ -1170,7 +1170,7 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 8
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = education_stewardship_2
 	father = 467500
@@ -1190,7 +1190,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 7
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = diligent
 	trait = honest
@@ -1224,7 +1224,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 7
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = greedy
 	trait = education_intrigue_2
@@ -1245,7 +1245,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 5
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = education_martial_2
 	father = 467520
@@ -1265,7 +1265,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 7
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = temperate
 	trait = education_martial_2
@@ -1286,7 +1286,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 8
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = education_martial_2
 	father = 467520
@@ -1306,7 +1306,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = education_intrigue_2
 	father = 31201
@@ -1329,7 +1329,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 8
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = calm
 	trait = stuttering
@@ -1351,7 +1351,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 4
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = wrathful
 	trait = education_diplomacy_3
@@ -1378,7 +1378,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = stuttering
 	trait = education_learning_3
@@ -1400,7 +1400,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 5
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = greedy
 	trait = education_intrigue_1
@@ -1421,7 +1421,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 7
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = generous
 	trait = deceitful
@@ -1442,7 +1442,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 8
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = honest
 	trait = temperate
@@ -1463,7 +1463,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 5
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = craven
 	trait = education_diplomacy_3
@@ -1482,7 +1482,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = zealous
 	trait = education_martial_2
@@ -1503,7 +1503,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 8
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = education_learning_2
 	father = 31201
@@ -1525,7 +1525,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 7
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = diligent
 	trait = content
@@ -1550,7 +1550,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = ambitious
 	trait = arrogant
@@ -1571,7 +1571,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 10
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = ambitious	#Can't say he didn't aim high in all areas of his life.
 	trait = callous	#Blinded his own son, threatened to blind the others, ruthlessly broke pagan revolts throughout his reign. Rarely mean, but utterly pragmatic.
@@ -1590,7 +1590,7 @@
 		}
 	}
 	864.1.1 = {
-		religion = "bogomilist"
+		religion = "slavic_pagan"
 		capital = "c_dorostorum"
 		effect = {
 			set_relation_rival = { target = character:70383 reason = rival_historical }	#Vladimir does not take kindly to Christianity.
@@ -1612,7 +1612,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 7
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = calm
 	trait = temperate
@@ -1641,7 +1641,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 4
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = brave
 	trait = arrogant
@@ -1662,7 +1662,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = greedy
 	trait = bastard
@@ -1685,7 +1685,7 @@
 	intrigue = 4
 	stewardship = 6
 	learning = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = intellect_good_1
 	trait = pensive
@@ -1715,7 +1715,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 5
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = wrathful
 	trait = compassionate
@@ -1737,7 +1737,7 @@
 	diplomacy = 7
 	intrigue = 5
 	stewardship = 8
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = deceitful
 	trait = education_intrigue_1
@@ -1757,7 +1757,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = celibate
 	trait = gluttonous
@@ -1778,7 +1778,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 8
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = chaste
 	trait = hunchbacked
@@ -1800,7 +1800,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = zealous
 	trait = education_martial_2
@@ -1822,7 +1822,7 @@
 	intrigue = 4
 	stewardship = 4
 	learning = 3
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = gluttonous
 	trait = deceitful
@@ -1844,7 +1844,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 4
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = education_martial_2
 	father = 724
@@ -1868,7 +1868,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 8
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = just
 	trait = education_intrigue_2
@@ -1888,7 +1888,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 4
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = diligent
 	trait = wrathful
@@ -1910,7 +1910,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 7
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = diligent
 	trait = education_diplomacy_1
@@ -1930,7 +1930,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 8
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = just
 	trait = education_martial_3
@@ -1951,7 +1951,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 7
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = education_learning_3
 	father = 722
@@ -1971,7 +1971,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 6
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = brave
 	trait = wrathful
@@ -2003,7 +2003,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = cynical
 	trait = arrogant
@@ -2022,7 +2022,7 @@
 	name = "Georgi"
 	dynasty = 25200
 	trait = ambitious
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	1035.1.1 = {
 		birth = "1035.1.1"
@@ -2036,7 +2036,7 @@
 34584 = {
 	name = "Dobromir"
 	dynasty = 100508
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	1175.1.1 = {
 		birth = "1175.1.1"
@@ -2058,7 +2058,7 @@
 159126 = {
 	name = "Zvinica" #father of Presian I
 	dynasty = 591
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 159124
 	784.1.2 = {
@@ -2072,7 +2072,7 @@
 168067 = {
 	name = "Gavril"
 	dynasty = 8636
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 70382
 	mother = 168075
@@ -2080,7 +2080,7 @@
 		birth = "848.1.1"
 	}
 	864.1.1 = {
-		religion = "bogomilist"
+		religion = "slavic_pagan"
 		trait = disinherited	#His father preferred his newborn brother, Simeon.
 	}
 	896.1.1 = {
@@ -2092,7 +2092,7 @@
 	name = "Anna"
 	female = yes
 	dynasty = 8636
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 70382
 	mother = 168075
@@ -2100,7 +2100,7 @@
 		birth = "842.1.1"
 	}
 	864.1.1 = {
-		religion = "bogomilist"
+		religion = "slavic_pagan"
 	}
 	899.1.1 = {
 		death = "899.1.1"
@@ -2111,14 +2111,14 @@
 168069 = {
 	name = "Dox"
 	dynasty = 8636
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 70384
 	827.1.1 = {
 		birth = "827.1.1"
 	}
 	864.1.1 = {
-		religion = "bogomilist"
+		religion = "slavic_pagan"
 	}
 	877.1.1 = {
 		death = "877.1.1"
@@ -2130,14 +2130,14 @@
 168070 = {
 	name = "Gavril"
 	dynasty = 8636
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 70384
 	829.1.1 = {
 		birth = "829.1.1"
 	}
 	864.1.1 = {
-		religion = "bogomilist"
+		religion = "slavic_pagan"
 	}
 	879.1.1 = {
 		death = "879.1.1"
@@ -2147,7 +2147,7 @@
 168075 = {
 	name = "Marija"
 	female = yes
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	825.1.1 = {
 		birth = "825.1.1"
@@ -2162,13 +2162,13 @@
 168076 = {
 	name = "Praxi"
 	female = yes
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	835.1.1 = {
 		birth = "835.1.1"
 	}
 	864.1.1 = {
-		religion = "bogomilist"
+		religion = "slavic_pagan"
 	}
 	885.1.1 = {
 		death = "885.1.1"
@@ -2179,7 +2179,7 @@
 168077 = {
 	name = "Vasilka" #real name unknown
 	female = yes
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	trait = bastard
 	father = 70382
@@ -2188,7 +2188,7 @@
 		birth = "855.1.1"
 	}
 	864.1.1 = {
-		religion = "bogomilist"
+		religion = "slavic_pagan"
 	}
 	899.1.1 = {
 		death = "899.1.1"
@@ -2199,7 +2199,7 @@
 168078 = {
 	name = "Iakov"
 	dynasty = 8636
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	father = 70382
 	mother = 168075
@@ -2215,13 +2215,13 @@
 	name = "Alogobotur"
 	dynasty = 9581
 	trait = education_martial_3
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	850.1.1 = {
 		birth = "850.1.1"
 	}
 	893.1.1 = {
-		religion = "bogomilist"
+		religion = "slavic_pagan"
 	}
 	927.5.27 = {
 		death = "927.5.27"
@@ -2232,13 +2232,13 @@
 	name = "Marmais"
 	dynasty = 9582
 	trait = education_martial_3
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	850.1.1 = {
 		birth = "850.1.1"
 	}
 	893.1.1 = {
-		religion = "bogomilist"
+		religion = "slavic_pagan"
 	}
 	924.1.1 = {
 		death = "924.1.1"
@@ -2251,13 +2251,13 @@
 	#placeholder
 	dynasty = 9583
 	trait = education_martial_2
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	845.1.1 = {
 		birth = "845.1.1"
 	}
 	893.1.1 = {
-		religion = "bogomilist"
+		religion = "slavic_pagan"
 	}
 	915.1.1 = {
 		death = "915.1.1"
@@ -2268,7 +2268,7 @@
 	name = "Zalan"
 	dynasty = 9584
 	trait = education_intrigue_3
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	845.1.1 = {
 		birth = "845.1.1"
@@ -2282,7 +2282,7 @@
 	name = "Petar"
 	#dynasty = 9585
 	trait = education_diplomacy_3
-	religion = "bogomilist"
+	religion = "slavic_pagan"
 	culture = "bulgarian"
 	850.1.1 = {
 		birth = "850.1.1"

@@ -14,6 +14,20 @@
 					change_government = feudal_government
 				}
 			}
+			holder = {
+				create_maa_regiment = {
+					type = akritai
+					check_can_recruit = no 
+					title = title:d_epirus
+					size = 1
+				}
+				create_maa_regiment = {
+					type = skoutatoi
+					check_can_recruit = no 
+					title = title:d_epirus
+					size = 1
+				}
+			}
 		}
 	}
 	766.1.1 = {
@@ -400,6 +414,20 @@ d_dyrrachion = {
 				}
 				holder = {
 					change_government = feudal_government
+				}
+			}
+			holder = {
+				create_maa_regiment = {
+					type = akritai
+					check_can_recruit = no 
+					title = title:d_dyrrachion
+					size = 1
+				}
+				create_maa_regiment = {
+					type = skoutatoi
+					check_can_recruit = no 
+					title = title:d_dyrrachion
+					size = 1
 				}
 			}
 		}

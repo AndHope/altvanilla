@@ -108,6 +108,22 @@
 		birth = "851.1.1"
 	}
 	866.1.1 = {
+		create_maa_regiment = {
+			type = huscarl
+			check_can_recruit = no
+			size = 3
+		}
+		create_maa_regiment = {
+			type = vigmen
+			check_can_recruit = no
+			size = 3
+		}
+		create_maa_regiment = {
+			type = bondi
+			check_can_recruit = no
+			size = 3
+		}
+		add_piety = 750 # This period of life dominated by holy wars in southern Italy.
 		effect = {
 			set_relation_friend = { reason = friend_generic_history target = character:90107 } #His liege Ludwig, who he was on relatively good terms with despite the general instability and discontent in the realm.
 		}

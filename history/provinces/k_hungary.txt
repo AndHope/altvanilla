@@ -286,8 +286,8 @@
 ##d_nyitra ###################################
 ###c_nyitra
 3831 = {	#Nyitra
-	culture = avar
-	religion = tengri_pagan
+	culture = slovien
+	religion = slavic_pagan
 	holding = tribal_holding
 }
 3832 = {	#Pecsen
@@ -308,8 +308,8 @@
 
 ###c_gemer
 524 = {		#Gemer
-	culture = avar
-	religion = tengri_pagan
+	culture = slovien
+	religion = slavic_pagan
 	holding = tribal_holding
 	
 	853.1.1 = {
@@ -354,8 +354,8 @@
 
 ###c_trenscen
 3811 = {	#Trenscen
-	culture = avar
-	religion = tengri_pagan
+	culture = slovien
+	religion = slavic_pagan
 	holding = tribal_holding
 }
 3812 = {	#Puho aka P�chov
@@ -386,8 +386,8 @@
 
 ###c_lipto
 3854 = {	#Liptoujvar
-	culture = avar
-	religion = tengri_pagan
+	culture = slovien
+	religion = slavic_pagan
 	holding = tribal_holding
 }
 3855 = {	#Nemetlipcse
@@ -401,7 +401,7 @@
 
 ###c_zolyom
 3856 = {	#Zolyom
-	culture = avar
+	culture = slovien
 	religion = tengri_pagan
 	holding = tribal_holding
 }
@@ -412,8 +412,8 @@
 
 ###c_bars
 3846 = {	#Bars
-	culture = avar
-	religion = tengri_pagan
+	culture = slovien
+	religion = slavic_pagan
 	holding = tribal_holding
 }
 3847 = {	#Kormocbanya AKA Kremnica
@@ -427,8 +427,8 @@
 
 ###c_hont
 3848 = {	#Hont
-	culture = avar
-	religion = tengri_pagan
+	culture = slovien
+	religion = slavic_pagan
 	holding = tribal_holding
 }
 3849 = {	#Nograd
@@ -451,8 +451,8 @@
 
 ###c_poszony
 3815 = {	#Poszony
-	culture = avar
-	religion = tengri_pagan
+	culture = slovien
+	religion = slavic_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		buildings = {
@@ -474,8 +474,8 @@
 ##d_ungvar ###################################
 ###c_ungvar
 3897 = {	#Ungvar
-	culture = avar
-	religion = tengri_pagan
+	culture = slovien
+	religion = slavic_pagan
 	holding = tribal_holding
 	
 	900.1.1 = { religion = tengri_pagan }
@@ -492,8 +492,8 @@
 
 ###c_zemplen
 3885 = {	#Zemplen
-	culture = avar
-	religion = tengri_pagan
+	culture = slovien
+	religion = slavic_pagan
 	holding = tribal_holding
 	
 	900.1.1 = { religion = tengri_pagan }
@@ -549,8 +549,8 @@
 
 ###c_saris
 533 = {		#Saris
-	culture = avar
-	religion = tengri_pagan
+	culture = slovien
+	religion = slavic_pagan
 	holding = tribal_holding
 	
 	900.1.1 = {
@@ -566,8 +566,8 @@
 
 ###c_spis
 3862 = {	#Locse
-	culture = avar
-	religion = tengri_pagan
+	culture = slovien
+	religion = slavic_pagan
 	holding = tribal_holding
 }
 3861 = {	#Kesmark AKA Ke�marok
@@ -577,8 +577,8 @@
 
 ###c_abauj
 538 = {		#Abauj
-	culture = avar
-	religion = tengri_pagan
+	culture = slovien
+	religion = slavic_pagan
 	holding = tribal_holding
 	
 	861.1.1 = {

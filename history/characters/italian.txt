@@ -7115,6 +7115,26 @@
 	858.4.17 = {
 	name = "Nicolaus"
 	# AKA: Martin
+	create_maa_regiment = {
+		type = pikemen_unit
+		check_can_recruit = no
+		size = 4
+	}
+	create_maa_regiment = {
+		type = pikemen_unit
+		check_can_recruit = no
+		size = 4
+	}
+	create_maa_regiment = {
+		type = crossbowmen
+		check_can_recruit = no
+		size = 4
+	}
+	create_maa_regiment = {
+		type = palace_guards
+		check_can_recruit = no
+		size = 2
+	}
 	effect = {
 		add_gold = 999
 		add_piety = 5000

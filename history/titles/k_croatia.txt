@@ -3,8 +3,8 @@ k_croatia = {
 	1066.1.1 = { change_development_level = 8 }
 	1178.1.1 = { change_development_level = 24 }
 	
-	925.1.1 = {
-		holder = 8604
+	867.1.1 = {
+		holder = 167855
 	}
 	
 	928.1.1 = {
@@ -175,6 +175,20 @@ d_dalmatia = {
 				}
 				holder = {
 					change_government = feudal_government
+				}
+			}
+			holder = {
+				create_maa_regiment = {
+					type = akritai
+					check_can_recruit = no 
+					title = title:d_dalmatia
+					size = 2
+				}
+				create_maa_regiment = {
+					type = skoutatoi
+					check_can_recruit = no 
+					title = title:d_dalmatia
+					size = 1
 				}
 			}
 		}
@@ -1084,7 +1098,6 @@ c_modrus = {
 d_slavonia = {
 	760.1.1 = {
 		holder = 168292
-		government = tribal_government
 	}
 	790.1.1 = {
 		holder = 168293
@@ -1102,7 +1115,8 @@ d_slavonia = {
 		holder = 168298
 	}
 	838.1.1 = {
-		holder = 168299
+		liege = "k_croatia"
+		holder = 167855
 	}
 	898.1.1 = {
 		holder = 0
@@ -1205,7 +1219,6 @@ c_zagreb = {
 	760.1.1 = {
 		liege = "d_slavonia"
 	holder = 168292
-	government = tribal_government
 	}
 	790.1.1 = {
 		holder = 168293
@@ -1223,7 +1236,8 @@ c_zagreb = {
 		holder = 168298
 	}
 	838.1.1 = {
-		holder = 168299
+		liege = "k_croatia"
+		holder = 167855
 	}
 	1066.1.1 = {
 		liege = "d_slavonia"
@@ -1323,7 +1337,6 @@ c_zagorje = {
 	760.1.1 = {
 		liege = "d_slavonia"
 	holder = 168292
-	government = tribal_government
 	}
 	
 	768.1.1 = {
@@ -1477,7 +1490,6 @@ c_pozega = {
 	760.1.1 = {
 		liege = "d_slavonia"
 		holder = 168292
-		government = tribal_government
 	}
 	
 	766.1.1 = {
@@ -1623,8 +1635,7 @@ c_pozega = {
 c_vodica = {
 	760.1.1 = {
 		liege = "d_slavonia"
-	holder = 168292
-	government = tribal_government
+		holder = 168292
 	}
 	790.1.1 = {
 		holder = 168293
@@ -1642,7 +1653,8 @@ c_vodica = {
 		holder = 168298
 	}
 	838.1.1 = {
-		holder = 168299
+		liege = "k_croatia"
+		holder = 167855
 	}
 	1066.1.1 = {
 		liege = "d_slavonia"
@@ -1741,7 +1753,6 @@ c_vrbas = {
 	760.1.1 = {
 		liege = "d_slavonia"
 		holder = 168292
-		government = tribal_government
 	}
 	766.1.1 = {
 		holder = 168293
@@ -2149,7 +2160,7 @@ c_vhrbosna = {
 
 c_zachlumia = {
 	867.1.1 = {
-		liege = 0
+		liege = d_rashka
 		holder = 303447	#Fictional Pavel
 	}
 	
@@ -2219,7 +2230,7 @@ c_zachlumia = {
 
 c_zelengora = {
 	867.1.1 = {
-		liege = 0
+		liege = k_serbia
 		holder = 303447	#Fictional Pavel
 	}
 	

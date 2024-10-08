@@ -1772,6 +1772,21 @@
 		}	
 	}
 	867.1.1 = {
+		create_maa_regiment = {
+			type = horse_archers
+			check_can_recruit = no
+			size = 6
+		}
+		create_maa_regiment = {
+			type = camel_rider
+			check_can_recruit = no
+			size = 6
+		}
+		create_maa_regiment = {
+			type = ayyar
+			check_can_recruit = no
+			size = 6
+		}
 		add_pressed_claim = title:d_kabul
 		add_pressed_claim = title:d_bhakkar
 		add_pressed_claim = title:d_sauvira

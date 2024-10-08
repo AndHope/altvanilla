@@ -428,6 +428,21 @@
 		add_spouse = 173000
 	}
 	867.1.1 = {
+		create_maa_regiment = {
+			type = horse_archers
+			check_can_recruit = no
+			size = 8
+		}
+		create_maa_regiment = {
+			type = horse_archers
+			check_can_recruit = no
+			size = 8
+		}
+		create_maa_regiment = {
+			type = light_horsemen
+			check_can_recruit = no
+			size = 8
+		}
 		effect = {
 			add_gold = 999
 			add_prestige = 5000

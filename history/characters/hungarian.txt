@@ -9594,7 +9594,21 @@
 			add_gold = 999
 			add_prestige = 5000
 			add_piety = 500
-
+			create_maa_regiment = {
+				type = horse_archers
+				check_can_recruit = no
+				size = 6
+			}
+			create_maa_regiment = {
+				type = horse_archers
+				check_can_recruit = no
+				size = 6
+			}
+			create_maa_regiment = {
+				type = horse_archers
+				check_can_recruit = no
+				size = 6
+			}
 			spawn_army = {
 				name = event_troop_default_name
 				men_at_arms = {

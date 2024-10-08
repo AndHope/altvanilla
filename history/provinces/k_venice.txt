@@ -27,6 +27,10 @@
 
 2504 = {	#CHIOGGIA
 	holding = city_holding
+	buildings = {
+		common_tradeport_04
+		guild_halls_04
+	}
 }
 
 8767 = {	#MALAMCCO

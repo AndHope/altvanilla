@@ -25,6 +25,14 @@ d_crimea = {
 					change_government = feudal_government
 				}
 			}
+			holder = {
+				create_maa_regiment = {
+					type = akritai
+					check_can_recruit = no 
+					title = title:d_crimea
+					size = 2
+				}
+			}
 		}
 		holder=145932
 	}

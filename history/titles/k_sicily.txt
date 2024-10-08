@@ -1,6 +1,50 @@
 k_sicily = {
 	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 8 }
+
+	847.1.1 = {
+		holder = ckbr0001
+		liege = e_byzantium
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+			holder = {
+				create_maa_regiment = {
+					type = akritai
+					check_can_recruit = no 
+					title = title:k_sicily
+					size = 3
+				}
+				create_maa_regiment = {
+					type = skoutatoi
+					check_can_recruit = no 
+					title = title:k_sicily
+					size = 1
+				}
+				create_maa_regiment = {
+					type = ballistrai
+					check_can_recruit = no 
+					title = title:k_sicily
+					size = 1
+				}
+				create_maa_regiment = {
+					type = cataphract
+					check_can_recruit = no 
+					title = title:k_sicily
+					size = 1
+				}
+			}
+		}
+	}
+
 	1178.1.1 = { change_development_level = 24 }
 	
 	1130.12.25 = {
@@ -55,7 +99,7 @@ d_sicily = {
 	1178.1.1 = { change_development_level = 15 }
 	
 	536.1.1 = {
-		liege = e_byzantium
+		liege = k_sicily
 		government = administrative_government
 		effect = {
 			if = {
@@ -1484,7 +1528,7 @@ d_capua = {
 	}
 	866.1.1 = {
 		de_jure_liege = 0
-		liege = e_byzantium
+		liege = k_sicily
 		holder = 145201
 		government = administrative_government
 		effect = {
@@ -2199,7 +2243,7 @@ d_apulia = {
 	}
 	867.1.1 = {
 		holder = 145128 # Isidoros
-		liege = e_byzantium
+		liege = k_sicily
 		government = administrative_government
 		effect = {
 			if = {

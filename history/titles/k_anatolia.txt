@@ -40,6 +40,22 @@ d_cilicia = {
 	}
 	862.1.1 = {
 		holder = 145147
+		effect = {
+			holder = {
+				create_maa_regiment = {
+					type = akritai
+					check_can_recruit = no 
+					title = title:d_cilicia
+					size = 2
+				}
+				create_maa_regiment = {
+					type = skoutatoi
+					check_can_recruit = no 
+					title = title:d_cilicia
+					size = 1
+				}
+			}
+		}
 	}
 	962.1.1 = {
 		liege = "e_byzantium"
@@ -291,6 +307,20 @@ c_seleucia = {
 	}
 	850.1.1 = {
 		holder = 145147
+	}
+	862.1.1 = {
+		liege = "d_cilicia"
+		holder = 41316
+		effect = {
+			holder = {
+				create_maa_regiment = {
+					type = akritai
+					check_can_recruit = no 
+					title = title:c_seleucia
+					size = 1
+				}
+			}
+		}
 	}
 	965.1.1 = {
 		liege = "d_cilicia"
@@ -644,6 +674,22 @@ d_cibyrrhaeot = {
 	}
 	860.1.1 = {
 		holder = 145196
+		effect = {
+			holder = {
+				create_maa_regiment = {
+					type = akritai
+					check_can_recruit = no 
+					title = title:d_cibyrrhaeot
+					size = 1
+				}
+				create_maa_regiment = {
+					type = skoutatoi
+					check_can_recruit = no 
+					title = title:d_cibyrrhaeot
+					size = 1
+				}
+			}
+		}
 	}
 	1060.1.1 = {
 		holder = 20502
@@ -993,6 +1039,22 @@ d_anatolia = {
 	}
 	860.1.1 = {
 		holder = 145137
+		effect = {
+			holder = {
+				create_maa_regiment = {
+					type = akritai
+					check_can_recruit = no 
+					title = title:d_anatolia
+					size = 1
+				}
+				create_maa_regiment = {
+					type = skoutatoi
+					check_can_recruit = no 
+					title = title:d_anatolia
+					size = 1
+				}
+			}
+		}
 	}
 	1060.1.1 = {
 		holder = 1734
@@ -1655,6 +1717,22 @@ d_cappadocia = {
 	}
 	859.7.16 = {
 		holder = 302342 #fictional Alexios Maleios
+		effect = {
+			holder = {
+				create_maa_regiment = {
+					type = akritai
+					check_can_recruit = no 
+					title = title:d_cappadocia
+					size = 1
+				}
+				create_maa_regiment = {
+					type = skoutatoi
+					check_can_recruit = no 
+					title = title:d_cappadocia
+					size = 1
+				}
+			}
+		}
 	}
 	893.9.11 = {
 		holder = 302344 #fictional Matthaois Maleios

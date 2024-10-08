@@ -10,7 +10,8 @@
 		tradition_fervent_temple_builders
 		tradition_hill_dwellers
 		tradition_highland_warriors
-		tradition_stand_and_fight
+		tradition_stalwart_defenders
+		#tradition_monastic_communities
 	}
 	dlc_tradition = {
 		trait = tradition_ep3_indomitable_azatani
@@ -43,7 +44,7 @@ georgian = {
 		tradition_metal_craftsmanship
 		tradition_castle_keepers
 		tradition_caucasian_wolves
-		tradition_stand_and_fight
+		tradition_stalwart_defenders
 	}
 	
 	name_list = name_list_georgian

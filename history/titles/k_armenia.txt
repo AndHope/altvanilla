@@ -178,12 +178,20 @@ d_mesopotamia = {
 					change_government = feudal_government
 				}
 			}
+			holder = {
+				create_maa_regiment = {
+					type = akritai
+					check_can_recruit = no 
+					title = title:d_mesopotamia
+					size = 2
+				}
+			}
 		}
 		holder = ckbr0002
 	}
 	
 	#Byz
-	965.1.1 = {
+	867.1.1 = {
 		liege = "e_byzantium"
 		government = administrative_government
 	}
@@ -307,6 +315,8 @@ c_melitene = {
 	}
 	863.1.1 = {
 		holder = ckbr0002
+		liege = "e_byzantium"
+		government = administrative_government
 	}
 	1060.1.1 = {
 		holder = 85001
@@ -398,6 +408,8 @@ c_theodosiopolis = {
 	}
 	863.1.1 = {
 		holder = ckbr0002
+		liege = "e_byzantium"
+		government = administrative_government
 	}
 	1060.1.1 = {
 		holder = 20544
@@ -480,6 +492,8 @@ c_mesopotamia = {
 	}
 	863.1.1 = {
 		holder = ckbr0002
+		liege = "e_byzantium"
+		government = administrative_government
 	}
 	1060.1.1 = {
 		holder = 85001

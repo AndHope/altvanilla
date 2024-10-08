@@ -151,9 +151,9 @@
 	religion = nestorian
 	holding = castle_holding
 	# History
-	1066.1.1 = {
+	867.1.1 = {
 		buildings = {
-			#camel_farms_01
+			castle_02
 			regimental_grounds_01
 			pastures_01
 		}
@@ -408,6 +408,16 @@
 	culture = armenian
 	religion = armenian_apostolic
 	
+	769.1.1 = {
+		holding = castle_holding
+	}
+	867.1.1 = {
+		buildings = {
+			pastures_01
+			watchtowers_04
+		}
+	}
+
 	# History
 	1144.1.1 = {
 		culture = levantine

@@ -245,9 +245,9 @@
 	867.1.1 = {
 		buildings = {
 			cereal_fields_02
-			#orchards_01
+			orchards_01
 			regimental_grounds_01
-			#camel_farms_01
+			camel_farms_01
 		}
 	}
 }

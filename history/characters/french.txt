@@ -9865,10 +9865,34 @@
 		add_spouse = 167894
 	}
 	865.1.1 = {
+		create_maa_regiment = {
+			type = armored_horsemen
+			check_can_recruit = no
+			size = 8
+		}
+		create_maa_regiment = {
+			type = armored_horsemen
+			check_can_recruit = no
+			size = 8
+		}
+		create_maa_regiment = {
+			type = armored_horsemen
+			check_can_recruit = no
+			size = 8
+		}
+		create_maa_regiment = {
+			type = armored_footmen
+			check_can_recruit = no
+			size = 8
+		}
+		create_maa_regiment = {
+			type = armored_footmen
+			check_can_recruit = no
+			size = 8
+		}
 		add_piety = 750 # This period of life dominated by holy wars in southern Italy.
 		set_relation_friend = { reason = friend_generic_history target = character:1700 }
 		effect = {
-			#add_gold = 999
 			add_prestige = 3500
 			add_piety = 3500
 			create_alliance = {
@@ -14612,6 +14636,22 @@
 	866.1.30 = {
 		effect = { give_nickname = nick_the_child }
 		death = "866.1.30"
+		effect = {
+			add_prestige = 500
+			add_piety = 500
+			create_alliance = {
+				target = character:70019
+				allied_through_owner = this
+				allied_through_target = character:70019
+			}
+			create_alliance = {
+				target = character:70292
+				allied_through_owner = this
+				allied_through_target = character:70292
+			}
+
+		}
+	
 	}
 }
 
@@ -26928,6 +26968,21 @@
 	842.1.1 = {
 		add_spouse = 167830 #(Irminitrude of Orléans)
 		give_nickname = nick_the_bald_ironic
+		create_maa_regiment = {
+			type = armored_horsemen
+			check_can_recruit = no
+			size = 6
+		}
+		create_maa_regiment = {
+			type = armored_horsemen
+			check_can_recruit = no
+			size = 6
+		}
+		create_maa_regiment = {
+			type = armored_footmen
+			check_can_recruit = no
+			size = 6
+		}
 	}
 	858.12.1 = {
 		set_relation_rival = { target = character:90107 reason = rival_historical } #(Ludwig the German), tried to take his Kingdom title
@@ -27229,6 +27284,16 @@
 	862.3.1 = {
 		add_spouse = 91385 # Ansgarde de Bourgogne
 		give_nickname = nick_the_stammerer
+		create_maa_regiment = {
+			type = armored_horsemen
+			check_can_recruit = no
+			size = 4
+		}
+		create_maa_regiment = {
+			type = armored_footmen
+			check_can_recruit = no
+			size = 4
+		}
 	}
 	866.7.1 = {
 		remove_spouse = 91385 # Ansgarde de Bourgogne

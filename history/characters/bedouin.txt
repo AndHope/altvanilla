@@ -5633,19 +5633,46 @@
 	learning = 10
 	prowess = 10
 
-	trait = education_stewardship_1
+	trait = strong
+	trait = physique_good_1
+	trait = whole_of_body
+	trait = faith_warrior
+	trait = education_martial_4
+	trait = reaver
 
 	trait = greedy
 	trait = content
 	trait = diligent
 
 	trait = lifestyle_hunter
-	trait = drunkard
 
 	830.1.1 = {
 		birth = yes
 	}
-	867.1.1 = {
+	866.1.1 = {
+		add_gold = 200
+		add_prestige = 500
+		add_piety = 3500
+		create_maa_regiment = {
+			type = camel_rider
+			check_can_recruit = no
+			size = 4
+		}
+		create_maa_regiment = {
+			type = camel_rider
+			check_can_recruit = no
+			size = 4
+		}
+		create_maa_regiment = {
+			type = mubarizun
+			check_can_recruit = no
+			size = 4
+		}
+		create_maa_regiment = {
+			type = mubarizun
+			check_can_recruit = no
+			size = 4
+		}
 		effect = {
 			spawn_army = {
 				name = event_troop_default_name
@@ -5694,6 +5721,27 @@
 			}
 		}
 	}
+	867.1.1 = {
+		set_relation_friend = { reason = friend_generic_history target = character:73683 }
+		set_relation_friend = { reason = friend_generic_history target = character:163115 }
+		set_relation_friend = { reason = friend_generic_history target = character:34014 }
+		effect = {
+			create_alliance = {
+				target = character:73683
+				allied_through_owner = this
+				allied_through_target = character:73683
+			}
+		}
+		set_relation_friend = { reason = friend_generic_history target = character:163115 }
+		effect = {
+			create_alliance = {
+				target = character:163115
+				allied_through_owner = this
+				allied_through_target = character:163115
+			}
+		}
+	}
+	
 	875.1.1 = {
 		death = yes
 	}
