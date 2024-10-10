@@ -7138,6 +7138,19 @@
 	effect = {
 		add_gold = 999
 		add_piety = 5000
+		add_diplomacy_lifestyle_perk_points = 5
+		add_perk = faithful_perk
+		add_perk = zealous_proselytizer_perk
+		add_perk = religious_icon_perk
+		add_perk = prophet_perk
+		add_perk = clerical_justifications_perk
+		add_perk = church_and_state_perk
+		add_perk = radiant_perk
+		add_perk = defender_of_the_faith_perk
+		add_perk = theologian_perk
+		add_trait = theologian
+		add_perk = pedagogy_perk
+		add_perk = open_minded_perk
 	}
 	}
 	867.11.13 = {

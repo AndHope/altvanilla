@@ -52,6 +52,12 @@
 	# Misc
 	culture = armenian
 	religion = armenian_apostolic
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			hill_forts_02
+		}
+	}
 	
 	# History
 	1320.1.1 = { culture = levantine }
@@ -64,6 +70,12 @@
 	# Misc
 	culture = armenian
 	religion = armenian_apostolic
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			hill_forts_02
+		}
+	}
 	
 	# History
 	1320.1.1 = { culture = levantine }
@@ -145,6 +157,13 @@
 	# Misc
 	culture = greek
 	religion = orthodox
+	holding = castle_holding
+	# History
+	867.1.1 = {
+		buildings = {
+			curtain_walls_02
+		}
+	}
 	
 	# History
 	1268.1.1 = { culture = levantine }
@@ -316,8 +335,8 @@
 	# History
 	867.1.1 = {
 		buildings = {
-			common_tradeport_02
-			watchtowers_02
+			common_tradeport_04
+			watchtowers_03
 		}
 	}
 	1295.1.1 = { religion = ashari }
@@ -330,6 +349,14 @@
 	# Misc
 	culture = assyrian
 	religion = orthodox
+	holding = castle_holding
+	# History
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+			hill_forts_01
+		}
+	}
 	
 	# History
 
@@ -451,6 +478,11 @@
 	# Misc
 	culture = levantine
 	religion = orthodox
+	867.1.1 = {
+		buildings = {
+			watchtowers_02
+		}
+	}
 	
 	# History
 	867.1.1 = { religion = ashari }
@@ -509,7 +541,7 @@
 	867.1.1 = {
 		buildings = {
 			castle_02
-			pastures_01
+			pastures_02
 			plantations_02
 			watchtowers_04
 		}

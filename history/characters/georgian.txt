@@ -3002,7 +3002,53 @@
 		birth = "854.1.1"
 	}
 	867.1.1 = {
+		create_maa_regiment = {
+			type = monaspa
+			check_can_recruit = no
+			size = 4
+		}
+		create_maa_regiment = {
+			type = monaspa
+			check_can_recruit = no
+			size = 4
+		}
+		create_maa_regiment = {
+			type = ayrudzi
+			check_can_recruit = no
+			size = 4
+		}
 		effect = {
+
+			learn_language = language_greek
+	
+			add_perk = stalwart_leader_perk
+			add_perk = chivalric_dominance_perk
+			add_perk = never_back_down_perk
+			add_perk = kingsguard_perk
+
+			add_perk = golden_obligations_perk
+			add_perk = heregeld_perk
+			add_perk = detailed_ledgers_perk
+			add_perk = war_profiteer_perk
+			add_perk = fearful_troops_perk
+			add_perk = it_is_my_domain_perk
+
+			add_perk = befriend_perk
+			add_perk = confidants_perk
+			add_perk = flatterer_perk
+			add_perk = groomed_to_rule_perk
+
+			add_perk = thoughtful_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+	
+			add_perk = meritocracy_perk
+			add_perk = large_levies_perk
+			add_perk = soon_forgiven_perk
+
+			add_perk = tax_man_perk
+			add_perk = pedagogy_perk
+
 			create_betrothal = character:145132 # Dealt with in her entry
 			create_alliance = {
 				target = character:1700

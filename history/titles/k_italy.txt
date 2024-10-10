@@ -4365,7 +4365,7 @@ c_firenze = {
 		holder = 167897
 	}
 	838.1.1 = {
-		holder = 167902
+		holder = 163070 # Adalberto I of Tuscany
 	}
 	846.1.1 = {
 		liege = "d_toscana"

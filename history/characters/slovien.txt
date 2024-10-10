@@ -77,12 +77,44 @@
 	religion = "slavic_pagan"
 	culture = "slovien"
 	father = 187009
-	815.1.1 = {
-		birth = "815.1.1"
+	830.1.1 = {
+		birth = "830.1.1"
 	}
 	831.1.1 = {
 		religion = "slavic_pagan"
+		create_maa_regiment = {
+			type = druzhina
+			check_can_recruit = no
+			size = 4
+		}
+		create_maa_regiment = {
+			type = hussar
+			check_can_recruit = no
+			size = 4
+		}
+		create_maa_regiment = {
+			type = hussar
+			check_can_recruit = no
+			size = 4
+		}
 		effect = {
+			learn_language = language_french
+			add_dread = high_dread
+			add_perk = bellum_justum_perk
+			add_perk = parthian_tactics_perk
+			add_perk = envelopment_perk
+			add_perk = organized_retreat_perk
+			add_perk = hit_and_run_perk
+	
+			add_perk = stalwart_leader_perk
+			add_perk = chivalric_dominance_perk
+			add_perk = never_back_down_perk
+			add_perk = kingsguard_perk
+	
+			add_perk = meritocracy_perk
+			add_perk = large_levies_perk
+			add_perk = soon_forgiven_perk
+			add_perk = toe_the_line_perk
 			add_gold = 500
 			add_prestige = 3500
 			add_piety = 2500
@@ -114,10 +146,28 @@
 				origin = province:4165
 				inheritable = yes
 			}
+			set_relation_friend = { reason = friend_generic_history target = character:82235 }
+			add_opinion = {
+				modifier = perk_negotiated_alliance_opinion
+				target = character:82235
+			}
+			reverse_add_opinion = {
+				modifier = event_negotiated_alliance_opinion
+				target = character:82235
+			}
 			create_alliance = {
 				target = character:82235
 				allied_through_owner = this
 				allied_through_target = character:82235
+			}
+			set_relation_friend = { reason = friend_generic_history target = character:184007 }
+			add_opinion = {
+				modifier = perk_negotiated_alliance_opinion
+				target = character:184007
+			}
+			reverse_add_opinion = {
+				modifier = event_negotiated_alliance_opinion
+				target = character:184007
 			}
 			create_alliance = {
 				target = character:184007

@@ -125,7 +125,24 @@
 		}
 		add_piety = 750 # This period of life dominated by holy wars in southern Italy.
 		effect = {
-			set_relation_friend = { reason = friend_generic_history target = character:90107 } #His liege Ludwig, who he was on relatively good terms with despite the general instability and discontent in the realm.
+			learn_language = language_norse
+			add_dread = high_dread
+			add_perk = bellum_justum_perk
+			add_perk = parthian_tactics_perk
+			add_perk = envelopment_perk
+			add_perk = organized_retreat_perk
+			add_perk = hit_and_run_perk
+	
+			add_perk = stalwart_leader_perk
+			add_perk = chivalric_dominance_perk
+			add_perk = never_back_down_perk
+			add_perk = kingsguard_perk
+			
+			add_perk = meritocracy_perk
+			add_perk = large_levies_perk
+			add_perk = soon_forgiven_perk
+			add_perk = toe_the_line_perk
+
 		}
 	}
 	875.1.1 = {

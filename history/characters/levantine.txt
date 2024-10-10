@@ -5952,6 +5952,7 @@
 	trait = reaver
 	trait = brave
 	trait = diligent
+	trait = loyal
 	dynasty = 598
 	835.1.1 = {
 		birth = "835.1.1"
@@ -5971,6 +5972,17 @@
 			type = mubarizun
 			check_can_recruit = no
 			size = 2
+		}
+		effect = {
+			add_gold = 100
+			learn_language = language_greek
+			add_perk = bellum_justum_perk
+			add_perk = parthian_tactics_perk
+			add_perk = envelopment_perk
+			add_perk = organized_retreat_perk
+			add_perk = hit_and_run_perk
+			add_perk = engineered_for_destruction_perk
+			add_perk = living_off_the_land_perk
 		}
 		effect = {
 			spawn_army = {
@@ -6053,6 +6065,7 @@
 		trait = strategist
 		trait = brave
 		trait = diligent
+		trait = loyal
 		trait = ambitious # "inordinately ambitious"
 		trait = shrewd # "a ready knowledge of nearly the whole of history and also practical experience of almost everything in daily affairs"
 	
@@ -6063,6 +6076,22 @@
 		add_pressed_claim = title:c_cilicia
 		add_pressed_claim = title:c_tall_hamid
 		add_pressed_claim = title:c_lycandus
+		effect = {
+			add_gold = 100
+			learn_language = language_greek
+			add_perk = bellum_justum_perk
+			add_perk = parthian_tactics_perk
+			add_perk = envelopment_perk
+			add_perk = organized_retreat_perk
+			add_perk = hit_and_run_perk
+			add_perk = engineered_for_destruction_perk
+			add_perk = living_off_the_land_perk
+
+			add_perk = stalwart_leader_perk
+			add_perk = chivalric_dominance_perk
+			add_perk = never_back_down_perk
+			add_perk = kingsguard_perk
+		}
 		effect = {
 			create_maa_regiment = {
 				type = horse_archers
@@ -6087,7 +6116,7 @@
 				}
 				men_at_arms = {
 					type = camel_rider
-					stacks = 1
+					stacks = 2
 				}
 				location = province:4828
 				origin = province:4828
@@ -6101,7 +6130,7 @@
 				}
 				men_at_arms = {
 					type = camel_rider
-					stacks = 1
+					stacks = 2
 				}
 				location = province:4828
 				origin = province:4828
@@ -6115,7 +6144,7 @@
 				}
 				men_at_arms = {
 					type = camel_rider
-					stacks = 1
+					stacks = 2
 				}
 				location = province:4828
 				origin = province:4828
@@ -7594,6 +7623,7 @@
 	trait = reaver
 	trait = brave
 	trait = diligent
+	trait = loyal
 	father = 159732
 	841.1.1 = {
 		birth = yes
@@ -7613,6 +7643,17 @@
 			type = mubarizun
 			check_can_recruit = no
 			size = 2
+		}
+		effect = {
+			add_gold = 100
+			learn_language = language_greek
+			add_perk = bellum_justum_perk
+			add_perk = parthian_tactics_perk
+			add_perk = envelopment_perk
+			add_perk = organized_retreat_perk
+			add_perk = hit_and_run_perk
+			add_perk = engineered_for_destruction_perk
+			add_perk = living_off_the_land_perk
 		}
 		effect = {
 			spawn_army = {
@@ -8147,6 +8188,7 @@ levantine000003 = {
 	trait = reaver
 	trait = brave
 	trait = diligent
+	trait = loyal
 	841.1.1 = {
 		birth = yes
 	}
@@ -8165,6 +8207,17 @@ levantine000003 = {
 			type = mubarizun
 			check_can_recruit = no
 			size = 2
+		}
+		effect = {
+			add_gold = 100
+			learn_language = language_greek
+			add_perk = bellum_justum_perk
+			add_perk = parthian_tactics_perk
+			add_perk = envelopment_perk
+			add_perk = organized_retreat_perk
+			add_perk = hit_and_run_perk
+			add_perk = engineered_for_destruction_perk
+			add_perk = living_off_the_land_perk
 		}
 		effect = {
 			spawn_army = {
@@ -8843,6 +8896,7 @@ levantine000010 = { #fictional ruler of Banu Kilab
 			modifier = fp3_struggle_caliph_super_suspicious_modifier
 		}
 		
+		
 		effect = {
 			create_maa_regiment = {
 				type = horse_archers
@@ -8875,10 +8929,23 @@ levantine000010 = { #fictional ruler of Banu Kilab
 			add_prestige_level = 3
 			add_piety_level = 4
 
-			if = {
-				limit = { has_realm_law = crown_authority_0 }
-				add_realm_law = crown_authority_2
-			}
+			add_perk = befriend_perk
+			add_perk = confidants_perk
+			add_perk = flatterer_perk
+			add_perk = groomed_to_rule_perk
+			add_perk = familial_familiar_perk
+			add_perk = thicker_than_water_perk
+			add_perk = friendly_counsel_perk
+			add_perk = sound_foundations_perk
+			add_perk = family_man_perk
+			add_trait = family_first
+
+			add_perk = dark_insights_perk
+			add_perk = divine_retribution_perk
+			add_perk = dreadful_perk
+			add_perk = thriving_in_chaos_perk
+			add_perk = malice_implicit_perk
+			add_perk = fear_tax_perk
 
 			spawn_army = {
 				name = event_troop_default_name
@@ -8941,6 +9008,35 @@ levantine000010 = { #fictional ruler of Banu Kilab
 		}
 		
 	}
+	
+	867.1.1 = {
+		effect = {
+			dynasty = {
+				add_dynasty_prestige = 65000
+				add_dynasty_prestige_level = -1
+
+				add_dynasty_perk = kin_legacy_1
+				add_dynasty_perk = kin_legacy_2
+				add_dynasty_perk = glory_legacy_1
+				add_dynasty_perk = glory_legacy_2
+				add_dynasty_perk = erudition_legacy_1
+				add_dynasty_perk = erudition_legacy_2
+				add_dynasty_perk = law_legacy_1
+				add_dynasty_perk = law_legacy_2
+				add_dynasty_perk = blood_legacy_1
+				add_dynasty_perk = blood_legacy_2
+
+				add_dynasty_perk = ep1_culture_legacy_1
+				add_dynasty_perk = ep1_culture_legacy_2
+				add_dynasty_perk = ep2_activities_legacy_1
+				add_dynasty_perk = ep2_activities_legacy_2
+				add_dynasty_perk = ce1_legitimacy_legacy_1
+				add_dynasty_perk = ce1_legitimacy_legacy_2
+
+			}
+		}
+	}
+	
 	869.1.1 = {
 		death = yes
 	}
@@ -9834,6 +9930,26 @@ levantine000010 = { #fictional ruler of Banu Kilab
 			check_can_recruit = no
 			size = 8
 		}
+		effect = {
+			add_gold = 100
+			learn_language = language_french
+			add_perk = meritocracy_perk
+			add_perk = large_levies_perk
+			add_perk = soon_forgiven_perk
+			add_perk = toe_the_line_perk
+
+			add_perk = befriend_perk
+			add_perk = confidants_perk
+			add_perk = flatterer_perk
+			add_perk = groomed_to_rule_perk
+			add_perk = familial_familiar_perk
+			add_perk = thicker_than_water_perk
+			add_perk = friendly_counsel_perk
+
+			add_perk = thoughtful_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+		}
 		add_spouse = 73927 # Ushar (andalusian.txt)
 		effect = {
 			add_gold = 9999
@@ -9852,6 +9968,35 @@ levantine000010 = { #fictional ruler of Banu Kilab
 			set_relation_friend = { reason = friend_generic_history target = character:73838 } # Sheik Izraq ibn Muntil of Madrid
 		}
 	}
+
+	867.1.1 = {
+		effect = {
+			dynasty = {
+				add_dynasty_prestige = 65000
+				add_dynasty_prestige_level = -1
+				add_dynasty_perk = kin_legacy_1
+				add_dynasty_perk = kin_legacy_2
+				add_dynasty_perk = glory_legacy_1
+				add_dynasty_perk = glory_legacy_2
+				add_dynasty_perk = erudition_legacy_1
+				add_dynasty_perk = erudition_legacy_2
+				add_dynasty_perk = law_legacy_1
+				add_dynasty_perk = law_legacy_2
+				add_dynasty_perk = blood_legacy_1
+				add_dynasty_perk = blood_legacy_2
+
+				add_dynasty_perk = ep1_culture_legacy_1
+				add_dynasty_perk = ep1_culture_legacy_2
+				add_dynasty_perk = ep2_activities_legacy_1
+				add_dynasty_perk = ep2_activities_legacy_2
+				add_dynasty_perk = ce1_legitimacy_legacy_1
+				add_dynasty_perk = ce1_legitimacy_legacy_2
+
+			}
+		}
+	}
+	
+
 	886.8.4 = {
 		death = yes
 	}

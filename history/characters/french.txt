@@ -9902,6 +9902,37 @@
 			}
 		}
 	}
+	
+	867.1.1 = {
+		effect = {
+			dynasty = {
+				add_dynasty_prestige = 80000
+				add_dynasty_prestige_level = -1
+				add_dynasty_perk = warfare_legacy_1
+				add_dynasty_perk = warfare_legacy_2
+				add_dynasty_perk = guile_legacy_1
+				add_dynasty_perk = guile_legacy_2
+
+				add_dynasty_perk = kin_legacy_1
+				add_dynasty_perk = kin_legacy_2
+				add_dynasty_perk = glory_legacy_1
+				add_dynasty_perk = glory_legacy_2
+				add_dynasty_perk = erudition_legacy_1
+				add_dynasty_perk = erudition_legacy_2
+				add_dynasty_perk = law_legacy_1
+				add_dynasty_perk = law_legacy_2
+				add_dynasty_perk = blood_legacy_1
+				add_dynasty_perk = blood_legacy_2
+
+				add_dynasty_perk = ep2_activities_legacy_1
+				add_dynasty_perk = ep2_activities_legacy_2
+				add_dynasty_perk = ce1_legitimacy_legacy_1
+				add_dynasty_perk = ce1_legitimacy_legacy_2
+			}
+		}
+	}
+	
+	
 	875.8.12 = {
 		death = yes
 	}
@@ -14639,10 +14670,26 @@
 		effect = {
 			add_prestige = 500
 			add_piety = 500
+			add_opinion = {
+				modifier = perk_negotiated_alliance_opinion
+				target = character:70019
+			}
+			reverse_add_opinion = {
+				modifier = event_negotiated_alliance_opinion
+				target = character:70019
+			}
 			create_alliance = {
 				target = character:70019
 				allied_through_owner = this
 				allied_through_target = character:70019
+			}
+			add_opinion = {
+				modifier = perk_negotiated_alliance_opinion
+				target = character:70292
+			}
+			reverse_add_opinion = {
+				modifier = event_negotiated_alliance_opinion
+				target = character:70292
 			}
 			create_alliance = {
 				target = character:70292
@@ -26982,6 +27029,32 @@
 			type = armored_footmen
 			check_can_recruit = no
 			size = 6
+		}
+		add_opinion = {
+			modifier = perk_negotiated_alliance_opinion
+			target = character:70019
+		}
+		reverse_add_opinion = {
+			modifier = event_negotiated_alliance_opinion
+			target = character:70019
+		}
+		create_alliance = {
+			target = character:70019
+			allied_through_owner = this
+			allied_through_target = character:70019
+		}
+		add_opinion = {
+			modifier = perk_negotiated_alliance_opinion
+			target = character:70292
+		}
+		reverse_add_opinion = {
+			modifier = event_negotiated_alliance_opinion
+			target = character:70292
+		}
+		create_alliance = {
+			target = character:70292
+			allied_through_owner = this
+			allied_through_target = character:70292
 		}
 	}
 	858.12.1 = {

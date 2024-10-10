@@ -649,7 +649,7 @@
 				name = event_troop_default_name
 				men_at_arms = {
 					type = sarawit
-					stacks = 5
+					stacks = 6
 				}
 				location = province:8289
 				origin = province:8289
@@ -659,7 +659,7 @@
 				name = event_troop_default_name
 				men_at_arms = {
 					type = sarawit
-					stacks = 5
+					stacks = 6
 				}
 				location = province:8289
 				origin = province:8289
@@ -669,7 +669,7 @@
 				name = event_troop_default_name
 				men_at_arms = {
 					type = sarawit
-					stacks = 5
+					stacks = 6
 				}
 				location = province:8289
 				origin = province:8289

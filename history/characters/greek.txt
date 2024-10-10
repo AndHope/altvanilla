@@ -24,7 +24,7 @@
 	#sexuality = bisexual
 	father = 145129
 	850.5.25 = {
-		birth = "850.5.25"
+		birth = "850.5.25" 
 	}
 	865.1.1 = {
 		add_spouse = 1761
@@ -60,12 +60,122 @@
 			add_prestige_level = 4
 			add_piety_level = 4
 			#add_dynasty_prestige = 9999
-			if = {
-				limit = { has_realm_law = crown_authority_0 }
-				add_realm_law = crown_authority_2
+			add_diplomacy_lifestyle_perk_points = 5
+			#add_intrigue_lifestyle_perk_points = 5
+			#add_stewardship_lifestyle_perk_points = 5
+			#add_martial_lifestyle_perk_points = 5
+			#add_learning_lifestyle_perk_points = 5
+			add_perk = befriend_perk
+			add_perk = confidants_perk
+			add_perk = flatterer_perk
+			add_perk = groomed_to_rule_perk
+			add_perk = familial_familiar_perk
+			add_perk = thicker_than_water_perk
+			add_perk = friendly_counsel_perk
+			add_perk = sound_foundations_perk
+			
+			add_perk = thoughtful_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+
+			add_perk = stalwart_leader_perk
+			add_perk = chivalric_dominance_perk
+			add_perk = never_back_down_perk
+			add_perk = kingsguard_perk
+			add_perk = courtship_perk
+			add_perk = promising_prospects_perk
+			add_perk = loyalty_and_respect_perk
+			add_perk = peacemaker_perk
+			add_perk = gallant_perk
+
+			add_perk = pedagogy_perk
+			add_perk = open_minded_perk
+
+			add_perk = like_weed_in_a_garden_perk
+			add_perk = unshackled_lust_perk
+			add_perk = subtle_desire_perk
+			add_perk = mortal_adoration_perk
+			add_perk = enticing_opportunity_perk
+			add_perk = home_advantage_perk
+			add_perk = graceful_recovery_perk
+			add_perk = smooth_operator_perk
+
+
+
+		}
+		effect = {
+			domicile ?= {
+				#Main Building
+				add_domicile_building = estate_main_02
+				add_domicile_building = estate_main_03
+				add_domicile_building = estate_main_04
+				add_domicile_building = estate_main_05
+				# 
+				add_domicile_building = bath_01
+				add_domicile_building = bath_02
+				add_domicile_building = bath_03
+				add_domicile_building = bath_04
+				#
+				add_domicile_building = library_01
+				add_domicile_building = library_02
+				add_domicile_building = library_education_03
+				add_domicile_building = library_education_04
+				#
+				add_domicile_building = guardhouse_01
+				add_domicile_building = guardhouse_02
+				add_domicile_building = guardhouse_03
+				add_domicile_building = guardhouse_04
+				#
+				add_domicile_building = watchtower_01
+				add_domicile_building = watchtower_02
+				add_domicile_building = watchtower_03
+				add_domicile_building = watchtower_04
+				#
+				add_domicile_building = stable_01
+				add_domicile_building = stable_02
+				add_domicile_building = stable_03
+				#
+				add_domicile_building = stable_chariot_04
+				add_domicile_building = stable_chariot_05
+				add_domicile_building = stable_chariot_06
 			}
 		}
 	}
+	
+	867.1.1 = {
+		effect = {
+			dynasty = {
+				add_dynasty_prestige = 110000
+				add_dynasty_prestige_level = -2
+
+				add_dynasty_perk = kin_legacy_1
+				add_dynasty_perk = kin_legacy_2
+				add_dynasty_perk = glory_legacy_1
+				add_dynasty_perk = glory_legacy_2
+				add_dynasty_perk = erudition_legacy_1
+				add_dynasty_perk = erudition_legacy_2
+				add_dynasty_perk = law_legacy_1
+				add_dynasty_perk = law_legacy_2
+				add_dynasty_perk = blood_legacy_1
+				add_dynasty_perk = blood_legacy_2
+
+				add_dynasty_perk = ep1_culture_legacy_1
+				add_dynasty_perk = ep1_culture_legacy_2
+				add_dynasty_perk = ep2_activities_legacy_1
+				add_dynasty_perk = ep2_activities_legacy_2
+				add_dynasty_perk = ce1_legitimacy_legacy_1
+				add_dynasty_perk = ce1_legitimacy_legacy_2
+
+				add_dynasty_perk = ep3_administrative_legacy_1
+				add_dynasty_perk = ep3_administrative_legacy_2
+				add_dynasty_perk = ep3_administrative_legacy_3
+				add_dynasty_perk = ep3_administrative_legacy_4
+				add_dynasty_perk = ep3_administrative_legacy_5
+
+			}
+		}
+	}
+	
 	886.8.29 = {
 		death = {
 			death_reason = death_deer
@@ -1465,8 +1575,8 @@
 	trait = wrathful
 	trait = education_martial_2
 	father = 20525
-	1030.1.1 = {
-		birth = "1030.1.1"
+	830.1.1 = {
+		birth = "830.1.1"
 	}
 	1045.1.1 = {
 		add_spouse = 725
@@ -1501,9 +1611,8 @@
 	religion = "orthodox"
 	culture = "greek"
 	father = 1734
-	mother = 725
-	1046.1.1 = {
-		birth = "1046.1.1"
+	846.1.1 = {
+		birth = "846.1.1"
 	}
 	1070.1.1 = {
 		add_spouse = 4558
@@ -1636,8 +1745,7 @@
 	trait = diligent
 	trait = bossy
 	father = 1752
-	mother = 4511
-	1056.1.1 = {
+	856.1.1 = {
 		birth = yes
 	}
 	1071.1.1 = {
@@ -1804,8 +1912,8 @@
 	religion = "orthodox"
 	culture = "greek"
 	father = 1750
-	1015.1.1 = {
-		birth = "1015.1.1"
+	815.1.1 = {
+		birth = "815.1.1"
 	}
 	1042.1.1 = {
 		add_spouse = 4511
@@ -1828,9 +1936,8 @@
 	religion = "orthodox"
 	culture = "greek"
 	father = 1752
-	mother = 4511
-	1043.1.1 = {
-		birth = "1043.1.1"
+	843.1.1 = {
+		birth = "843.1.1"
 	}
 	1071.4.17 = {
 		death = "1071.4.17"
@@ -1843,8 +1950,7 @@
 	religion = "orthodox"
 	culture = "greek"
 	father = 1752
-	mother = 4511
-	1047.1.1 = {
+	847.1.1 = {
 		birth = "1047.1.1"
 	}
 	1072.1.1 = {
@@ -1861,9 +1967,8 @@
 	religion = "orthodox"
 	culture = "greek"
 	father = 1752
-	mother = 4511
-	1058.1.1 = {
-		birth = "1058.1.1"
+	858.1.1 = {
+		birth = "858.1.1"
 	}
 	1081.11.1 = {
 		add_spouse = 9809
@@ -1879,9 +1984,8 @@
 	religion = "orthodox"
 	culture = "greek"
 	father = 1752
-	mother = 4511
-	1060.1.1 = {
-		birth = "1060.1.1"
+	860.1.1 = {
+		birth = "860.1.1"
 	}
 	1143.10.1 = {
 		death = "1143.10.1"
@@ -1899,11 +2003,8 @@
 	culture = "greek"
 	trait = wrathful
 	trait = education_diplomacy_3
-	1027.1.1 = {
-		birth = "1027.1.1"
-	}
-	1049.1.2 = {
-		add_spouse = 1765
+	827.1.1 = {
+		birth = "827.1.1"
 	}
 	1081.10.18 = {
 		death = "1081.10.18"
@@ -1954,9 +2055,9 @@
 	name = "Andronikos" # C.Paphlagonia
 	dynasty = 633
 	martial = 8
-	diplomacy = 5
-	intrigue = 5
-	stewardship = 7
+	diplomacy = 8
+	intrigue = 8
+	stewardship = 8
 	religion = "orthodox"
 	culture = "greek"
 	trait = honest
@@ -2068,10 +2169,10 @@
 1774 = {
 	name = "Konstantinos"
 	dynasty = 633
-	martial = 5
-	diplomacy = 7
-	intrigue = 4
-	stewardship = 6
+	martial = 8
+	diplomacy = 8
+	intrigue = 8
+	stewardship = 8
 	religion = "orthodox"
 	culture = "greek"
 	trait = education_diplomacy_2
@@ -2819,7 +2920,7 @@
 	trait = gluttonous
 	trait = education_diplomacy_2
 	father = 70430
-	1030.1.1 = {
+	830.1.1 = {
 		birth = "1030.1.1"
 	}
 	1066.1.1 = {
@@ -6869,6 +6970,14 @@
 				allied_through_owner = this
 				allied_through_target = character:1704
 			}
+			add_opinion = {
+				modifier = perk_negotiated_alliance_opinion
+				target = character:ckbr0002
+			}
+			reverse_add_opinion = {
+				modifier = event_negotiated_alliance_opinion
+				target = character:ckbr0002
+			}
 			create_alliance = {
 				target = character:ckbr0002
 				allied_through_owner = this
@@ -7172,9 +7281,8 @@
 	trait = rowdy
 	disallow_random_traits = yes
 	father = 1764
-	mother = 1765
-	1054.1.1 = {
-		birth = "1054.1.1"
+	854.1.1 = {
+		birth = "854.1.1"
 	}
 	1081.1.1 = {
 		add_spouse = 34436
@@ -7275,9 +7383,8 @@
 	religion = "orthodox"
 	culture = "greek"
 	father = 1752
-	mother = 4511
-	1045.1.1 = {
-		birth = "1045.1.1"
+	845.1.1 = {
+		birth = "845.1.1"
 	}
 	1109.8.18 = {
 		death = "1109.8.18"
@@ -7291,9 +7398,8 @@
 	religion = "orthodox"
 	culture = "greek"
 	father = 1752
-	mother = 4511
-	1050.1.1 = {
-		birth = "1050.1.1"
+	850.1.1 = {
+		birth = "850.1.1"
 	}
 	1100.1.1 = {
 		death = "1100.1.1"
@@ -7307,9 +7413,8 @@
 	religion = "orthodox"
 	culture = "greek"
 	father = 1752
-	mother = 4511
-	1053.1.1 = {
-		birth = "1053.1.1"
+	853.1.1 = {
+		birth = "853.1.1"
 	}
 	1095.1.1 = {
 		death = "1095.1.1"
@@ -10208,7 +10313,7 @@
 }
 
 70553 = {
-	name = "Stephia"
+	name = "Stephia" #ckbrsteph
 	dynasty = 644
 	martial = 2
 	diplomacy = 4
@@ -10239,6 +10344,25 @@
 	867.1.1 = {
 		trait = devoted
 		employer = 1700
+		effect = {
+			add_perk = faithful_perk
+			add_perk = zealous_proselytizer_perk
+			add_perk = religious_icon_perk
+			add_perk = prophet_perk
+			add_perk = clerical_justifications_perk
+			add_perk = church_and_state_perk
+			add_perk = radiant_perk
+			add_perk = defender_of_the_faith_perk
+			add_perk = theologian_perk
+			add_trait = theologian
+			add_perk = pedagogy_perk
+			add_perk = open_minded_perk
+			add_piety = 750
+			add_piety_level = 2
+			learn_language = language_latin
+			learn_language = language_french
+			learn_language = language_arabic
+		}
 	}
 	893.5.18 = {
 		death = "893.5.18"
@@ -10270,7 +10394,7 @@
 70555 = {
 	name = "Ignatios"
 	dynasty = 644 #8644
-	#dna = 1732_konstantinos_x
+	dna = 1732_konstantinos_x
 	martial = 5
 	diplomacy = 6
 	intrigue = 5
@@ -10290,6 +10414,26 @@
 	845.1.1 = {
 		trait = eunuch_1
 		trait = devoted
+
+		effect = {
+			add_perk = faithful_perk
+			add_perk = zealous_proselytizer_perk
+			add_perk = religious_icon_perk
+			add_perk = prophet_perk
+			add_perk = clerical_justifications_perk
+			add_perk = church_and_state_perk
+			add_perk = radiant_perk
+			add_perk = defender_of_the_faith_perk
+			add_perk = theologian_perk
+			add_trait = theologian
+			add_perk = pedagogy_perk
+			add_perk = open_minded_perk
+			add_piety = 750
+			add_piety_level = 2
+			learn_language = language_latin
+			learn_language = language_french
+			learn_language = language_arabic
+		}
 	}
 	877.10.23 = {
 		death = "877.10.23"
@@ -14631,9 +14775,8 @@
 	religion = "orthodox"
 	culture = "greek"
 	father = 1734
-	mother = 1733
-	1070.1.1 = {
-		birth = "1070.1.1"
+	870.1.1 = {
+		birth = "870.1.1"
 	}
 	
 	1089.1.1 = {
@@ -14647,9 +14790,8 @@
 	religion = "orthodox"
 	culture = "greek"
 	father = 1734
-	mother = 1733
-	1071.1.1 = {
-		birth = "1071.1.1"
+	867.1.1 = {
+		birth = "867.1.1"
 	}
 	
 	1094.1.1 = {
@@ -14718,9 +14860,8 @@
 	religion = "orthodox"
 	culture = "greek"
 	father = 1764
-	mother = 1765
-	1055.1.1 = {
-		birth = "1055.1.1"
+	855.1.1 = {
+		birth = "855.1.1"
 	}	
 	1081.10.18 = {
 		death = "1081.10.18"
@@ -14733,9 +14874,8 @@
 	religion = "orthodox"
 	culture = "greek"
 	father = 1764
-	mother = 1765
-	1056.1.1 = {
-		birth = "1056.1.1"
+	856.1.1 = {
+		birth = "856.1.1"
 	}	
 	1094.1.1 = {
 		death = "1094.1.1"
@@ -16893,6 +17033,7 @@
 	trait = education_martial_3
 	trait = reaver
 	trait = brave
+	trait = loyal
 
 	836.1.1 = {
 		birth = "836.1.1"
@@ -16929,6 +17070,14 @@
 				allied_through_owner = this
 				allied_through_target = character:26113
 			}
+		}
+		add_opinion = {
+			modifier = perk_negotiated_alliance_opinion
+			target = character:184026
+		}
+		reverse_add_opinion = {
+			modifier = event_negotiated_alliance_opinion
+			target = character:184026
 		}
 		effect = {
 			create_alliance = {
@@ -17062,6 +17211,7 @@
 	dynasty = 1022157
 	religion = "orthodox"
 	culture = "greek"
+	trait = loyal
 
 	829.1.1 = {
 		birth = "829.1.1"
@@ -17106,6 +17256,7 @@
 	trait = beauty_good_1
 	trait = physique_good_2
 	trait = intellect_good_1
+	trait = loyal
 	father = 70555
 	834.1.1 = {
 		birth = "834.1.1"
@@ -17137,6 +17288,7 @@ ckbr0001 = {
 	dna = 1732_konstantinos_x
 	trait = education_intrigue_5
 	trait = intellect_good_1
+	trait = loyal
 
 	father = 70555
 	830.1.1 = {
@@ -17177,6 +17329,7 @@ ckbr0002 = {
 	trait = logistician
 	trait = faith_warrior
 	trait = reaver
+	trait = loyal
 
 
 	840.1.1 = {
@@ -17199,15 +17352,26 @@ ckbr0002 = {
 				}
 			}
 		}
+		effect = {
+			add_gold = 100
+			learn_language = language_greek
+			add_perk = bellum_justum_perk
+			add_perk = parthian_tactics_perk
+			add_perk = envelopment_perk
+			add_perk = organized_retreat_perk
+			add_perk = hit_and_run_perk
+			add_perk = engineered_for_destruction_perk
+			add_perk = living_off_the_land_perk
+		}
+		create_maa_regiment = {
+			type = ayrudzi
+			check_can_recruit = no
+			size = 2
+		}
 		create_maa_regiment = {
 			type = akritai
 			check_can_recruit = no
 			size = 3
-		}
-		create_maa_regiment = {
-			type = skoutatoi
-			check_can_recruit = no
-			size = 1
 		}
 	}
 	872.1.1 = {
@@ -17538,9 +17702,26 @@ ckbr0002 = {
 	trait = strategist
 	trait = faith_warrior
 	trait = reaver
+	trait = loyal
 	830.1.1 = {
 		birth = "830.1.1"
 	}
+
+	860.1.1 = {
+		effect = {
+			dynasty = {
+				add_dynasty_prestige = 20000
+				add_dynasty_prestige_level = -1
+				add_dynasty_perk = warfare_legacy_1
+				add_dynasty_perk = warfare_legacy_2
+				add_dynasty_perk = warfare_legacy_3
+				add_dynasty_perk = warfare_legacy_4
+
+			}
+		}
+	}
+	
+
 	866.1.1 = {
 		set_relation_rival = { target = character:159738 }
 		set_relation_friend = { reason = friend_generic_history target = character:1700 }
@@ -17573,11 +17754,43 @@ ckbr0002 = {
 				allied_through_owner = this
 				allied_through_target = character:1700
 			}
+			add_opinion = {
+				modifier = perk_negotiated_alliance_opinion
+				target = character:ckbr0002
+			}
+			reverse_add_opinion = {
+				modifier = event_negotiated_alliance_opinion
+				target = character:ckbr0002
+			}
 			create_alliance = {
 				target = character:ckbr0002
 				allied_through_owner = this
 				allied_through_target = character:ckbr0002
 			}
+		}
+		effect = {
+			add_gold = 100
+			add_martial_lifestyle_perk_points = 5
+			add_perk = bellum_justum_perk
+			add_perk = parthian_tactics_perk
+			add_perk = envelopment_perk
+			add_perk = organized_retreat_perk
+			add_perk = hit_and_run_perk
+			add_perk = engineered_for_destruction_perk
+			add_perk = living_off_the_land_perk
+			add_perk = sappers_perk
+			add_perk = strategist_perk
+			add_trait = strategist
+
+			add_perk = stalwart_leader_perk
+			add_perk = chivalric_dominance_perk
+			add_perk = never_back_down_perk
+			add_perk = kingsguard_perk
+
+			add_perk = meritocracy_perk
+			add_perk = large_levies_perk
+			add_perk = soon_forgiven_perk
+			add_perk = toe_the_line_perk
 		}
 	}
 	885.1.1 = {
@@ -17630,6 +17843,25 @@ ckbr0002 = {
 	trait = education_martial_2
 	810.1.1 = {
 		birth = "810.1.1"
+	}
+	867.1.1 = {
+		effect = {
+			domicile ?= {
+				#Main Building
+				add_domicile_building = estate_main_02
+				#
+				add_domicile_building = bath_01
+				add_domicile_building = bath_02
+				#
+				add_domicile_building = stable_01
+				#
+				add_domicile_building = grain_field_01
+				add_domicile_building = grain_field_02
+				#
+				add_domicile_building = storage_01
+
+			}
+		}
 	}
 	870.1.1 = {
 		death = "870.1.1"
@@ -17841,16 +18073,43 @@ ckbr0002 = {
 	dynasty = 633
 	religion = "orthodox"
 	culture = "greek"
-	trait = education_martial_3
+	trait = education_martial_4
 	810.1.1 = {
 		birth = "810.1.1"
 	}
 	867.1.1 = {
 		effect = {
+			add_opinion = {
+				modifier = perk_negotiated_alliance_opinion
+				target = character:1700
+			}
+			reverse_add_opinion = {
+				modifier = event_negotiated_alliance_opinion
+				target = character:1700
+			}
 			create_alliance = {
 				target = character:1700
 				allied_through_owner = this
 				allied_through_target = character:1700
+			}
+		}
+		effect = {
+			domicile ?= {
+				#Main Building
+				add_domicile_building = estate_main_02
+				#
+				add_domicile_building = bath_01
+				add_domicile_building = bath_02
+				#
+				add_domicile_building = stable_01
+				add_domicile_building = stable_02
+				#
+				add_domicile_building = grain_field_01
+				add_domicile_building = grain_field_02
+				add_domicile_building = grain_field_03
+				#
+				add_domicile_building = storage_01
+
 			}
 		}
 	}
@@ -18240,6 +18499,7 @@ ckbr0002 = {
 	dynasty = 1022168
 	religion = "orthodox"
 	culture = "greek"
+	trait = loyal
 	839.1.1 = {
 		birth = "839.1.1"
 	}
@@ -18353,6 +18613,7 @@ ckbr0002 = {
 	dynasty = 1022173
 	religion = "orthodox"
 	culture = "greek"
+	trait = loyal
 	834.1.1 = {
 		birth = "834.1.1"
 	}

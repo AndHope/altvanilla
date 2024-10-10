@@ -9,6 +9,7 @@
 		tradition_hussar
 		tradition_astute_diplomats
 		tradition_hereditary_hierarchy
+		tradition_hill_dwellers
 	}
 	
 	name_list = name_list_croatian
@@ -39,6 +40,7 @@ bosnian = {
 		tradition_monastic_communities
 		tradition_isolationist
 		tradition_wedding_ceremonies
+		tradition_hill_dwellers
 	}
 	
 	name_list = name_list_bosnian
@@ -64,6 +66,7 @@ serbian = {
 		tradition_hussar
 		tradition_religious_patronage
 		tradition_stalwart_defenders
+		tradition_hill_dwellers
 	}
 	
 	dlc_tradition = {

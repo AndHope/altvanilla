@@ -193,7 +193,6 @@
 		buildings = {
 			hill_forts_01
 			common_tradeport_01
-			#barracks_01
 		}
 	}
 }

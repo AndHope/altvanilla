@@ -2286,7 +2286,41 @@
 		birth = "830.1.1"
 	}
 	867.1.1 = {
-		set_relation_friend = { reason = friend_generic_history target = character:1700 }
+		effect = {
+			add_dread = high_dread
+			learn_language = language_greek
+			add_perk = bellum_justum_perk
+			add_perk = parthian_tactics_perk
+			add_perk = envelopment_perk
+			add_perk = organized_retreat_perk
+			add_perk = hit_and_run_perk
+			add_perk = engineered_for_destruction_perk
+			add_perk = living_off_the_land_perk
+			add_perk = stalwart_leader_perk
+			add_perk = chivalric_dominance_perk
+			add_perk = never_back_down_perk
+			add_perk = kingsguard_perk
+			add_perk = meritocracy_perk
+			add_perk = large_levies_perk
+			add_perk = soon_forgiven_perk
+			add_perk = toe_the_line_perk
+		}
+		create_maa_regiment = {
+			type = druzhina
+			check_can_recruit = no
+			size = 4
+		}
+		create_maa_regiment = {
+			type = hussar
+			check_can_recruit = no
+			size = 4
+		}
+		create_maa_regiment = {
+			type = hussar
+			check_can_recruit = no
+			size = 4
+		}
+		set_relation_friend = { reason = friend_generic_history target = character:167855 }
 	}
 	891.1.1 = {
 		death = "891.1.1"

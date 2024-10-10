@@ -1674,13 +1674,72 @@
 		birth = "820.1.1"
 	}
 	840.1.1 = {
+		create_maa_regiment = {
+			type = ayrudzi
+			check_can_recruit = no
+			size = 6
+		}
+		create_maa_regiment = {
+			type = ayrudzi
+			check_can_recruit = no
+			size = 6
+		}
+		create_maa_regiment = {
+			type = ayrudzi
+			check_can_recruit = no
+			size = 6
+		}
 		set_relation_friend = { reason = friend_generic_history target = character:armenian_000081 }	#His brother, though ambitious supported his reign. Just not his son's.
 		add_spouse = armenian_000082
 		effect = {
+			learn_language = language_greek
+			add_diplomacy_lifestyle_perk_points = 5
+	
+			add_perk = stalwart_leader_perk
+			add_perk = chivalric_dominance_perk
+			add_perk = never_back_down_perk
+			add_perk = kingsguard_perk
+
+			add_perk = golden_obligations_perk
+			add_perk = heregeld_perk
+			add_perk = detailed_ledgers_perk
+			add_perk = war_profiteer_perk
+			add_perk = fearful_troops_perk
+			add_perk = it_is_my_domain_perk
+
+			add_perk = befriend_perk
+			add_perk = confidants_perk
+			add_perk = flatterer_perk
+			add_perk = groomed_to_rule_perk
+			add_perk = familial_familiar_perk
+			add_perk = thicker_than_water_perk
+			add_perk = friendly_counsel_perk
+			add_perk = sound_foundations_perk
+
+			add_perk = thoughtful_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+	
+			add_perk = meritocracy_perk
+			add_perk = large_levies_perk
+			add_perk = soon_forgiven_perk
+			add_perk = toe_the_line_perk
+
+			add_perk = tax_man_perk
+			add_perk = pedagogy_perk
+			add_perk = cutting_corners_perk
 			create_alliance = {
 				target = character:1700
 				allied_through_owner = this
 				allied_through_target = character:1702
+			}
+			add_opinion = {
+				modifier = perk_negotiated_alliance_opinion
+				target = character:41542
+			}
+			reverse_add_opinion = {
+				modifier = event_negotiated_alliance_opinion
+				target = character:41542
 			}
 			create_alliance = {
 				target = character:41542
@@ -1690,8 +1749,32 @@
 		}
 	}
 	867.1.1 = {
+		effect = {
+			dynasty = {
+				add_dynasty_prestige = 65000
+				add_dynasty_prestige_level = -2
+				add_dynasty_perk = kin_legacy_1
+				add_dynasty_perk = kin_legacy_2
+				add_dynasty_perk = glory_legacy_1
+				add_dynasty_perk = glory_legacy_2
+				add_dynasty_perk = erudition_legacy_1
+				add_dynasty_perk = erudition_legacy_2
+				add_dynasty_perk = law_legacy_1
+				add_dynasty_perk = law_legacy_2
+				add_dynasty_perk = blood_legacy_1
+				add_dynasty_perk = blood_legacy_2
 
+				add_dynasty_perk = ep1_culture_legacy_1
+				add_dynasty_perk = ep1_culture_legacy_2
+				add_dynasty_perk = ep2_activities_legacy_1
+				add_dynasty_perk = ep2_activities_legacy_2
+				add_dynasty_perk = ce1_legitimacy_legacy_1
+				add_dynasty_perk = ce1_legitimacy_legacy_2
+
+			}
+		}
 	}
+	
 	890.1.1 = {
 		death = "890.1.1"
 	}
@@ -1721,6 +1804,14 @@
 				target = character:1700
 				allied_through_owner = this
 				allied_through_target = character:1702
+			}
+			add_opinion = {
+				modifier = perk_negotiated_alliance_opinion
+				target = character:41542
+			}
+			reverse_add_opinion = {
+				modifier = event_negotiated_alliance_opinion
+				target = character:41542
 			}
 			create_alliance = {
 				target = character:41542

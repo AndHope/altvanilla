@@ -2204,7 +2204,7 @@ d_damascus = {
 }
 
 c_damascus = {
-	867.1.1 = {	change_development_level = 10 }
+	867.1.1 = {	change_development_level = 20 }
 	1066.1.1 = { change_development_level = 16 }
 	1178.1.1 = { change_development_level = 44 }
 	

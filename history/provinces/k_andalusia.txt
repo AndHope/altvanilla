@@ -486,11 +486,11 @@
 	}
 	867.1.1 = {
 		buildings = {
-			castle_05
+			castle_06
 			farm_estates_02
 			cereal_fields_02
 			cow_university_cordoba_02
-			cow_palace_cordoba_01
+			cow_palace_cordoba_02
 			cow_great_walls_01
 		}
 	}

@@ -9586,11 +9586,36 @@
 
 	844.1.1 = {
 		add_spouse = 306003 #Fictional, her name is lost but she was supposed to be highborn
+		effect = {
+			add_gold = 100
+			learn_language = language_french
+			add_perk = bellum_justum_perk
+			add_perk = parthian_tactics_perk
+			add_perk = envelopment_perk
+			add_perk = organized_retreat_perk
+			add_perk = hit_and_run_perk
+			add_perk = engineered_for_destruction_perk
+			add_perk = living_off_the_land_perk
+			add_perk = sappers_perk
+			add_perk = strategist_perk
+			add_trait = strategist
+			add_perk = stalwart_leader_perk
+			add_perk = chivalric_dominance_perk
+			add_perk = never_back_down_perk
+			add_perk = kingsguard_perk
+			add_prestige_level = 1
+			add_perk = meritocracy_perk
+			add_perk = large_levies_perk
+			add_perk = soon_forgiven_perk
+			add_perk = toe_the_line_perk
+		}
 	}
 	
 	# Boost the strength of the magyars for the hungarian invasion.
-	867.1.1 = {
+	866.1.1 = {
 		effect = {
+			add_dread = high_dread
+			add_martial_lifestyle_perk_points = 10
 			add_gold = 999
 			add_prestige = 5000
 			add_piety = 500
@@ -9710,6 +9735,28 @@
 		}
 	}
 	
+	867.1.1 = {
+		effect = {
+			dynasty = {
+				add_dynasty_prestige = 30000
+				add_dynasty_prestige_level = -2
+				add_dynasty_perk = warfare_legacy_1
+				add_dynasty_perk = warfare_legacy_2
+				add_dynasty_perk = warfare_legacy_3
+				add_dynasty_perk = warfare_legacy_4
+				add_dynasty_perk = warfare_legacy_5
+				add_dynasty_perk = guile_legacy_1
+				add_dynasty_perk = guile_legacy_2
+				add_dynasty_perk = glory_legacy_1
+				add_dynasty_perk = glory_legacy_2
+				add_dynasty_perk = law_legacy_1
+				add_dynasty_perk = law_legacy_2
+
+			}
+		}
+	}
+	
+
 	895.1.1 = {
 		death = yes
 	}

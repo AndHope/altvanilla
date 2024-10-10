@@ -33552,6 +33552,10 @@ cisalpine0944 = {
 			size = 4
 		}
 		effect = {
+			add_diplomacy_lifestyle_perk_points = 5
+			add_intrigue_lifestyle_perk_points = 5
+			add_stewardship_lifestyle_perk_points = 5
+			add_learning_lifestyle_perk_points = 5
 			add_gold = 5000
 		}
 	}

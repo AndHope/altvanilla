@@ -469,11 +469,11 @@
 		holding = castle_holding
 		special_building = house_of_wisdom_02
 		buildings = {
-			castle_06
+			castle_07
 			#curtain_walls_04
 			cereal_fields_04
 			orchards_04
-			cow_great_walls_baghdad_01
+			cow_great_walls_baghdad_02
 		}
 	}
 
