@@ -946,7 +946,7 @@ d_benevento = {
 		holder = 145217 # Radelgar
 	}
 	853.12.1 = {
-		de_jure_liege = 0
+		#de_jure_liege = 0
 		government = feudal_government
 		holder = 163071 # Adelchis
 	}
@@ -1528,7 +1528,7 @@ d_capua = {
 		holder = 163079 # Landolf II 'the Bishop'
 	}
 	866.1.1 = {
-		de_jure_liege = 0
+		#de_jure_liege = 0
 		liege = k_sicily
 		holder = 145201
 		government = administrative_government
@@ -2619,7 +2619,7 @@ d_salerno = {
 		holder = lombard0039 # Daufer Dauferidi
 	}
 	861.8.19 = {
-		de_jure_liege = 0
+		#de_jure_liege = 0
 		government = feudal_government
 		holder = 163091 # Guaifer
 		liege = k_romagna

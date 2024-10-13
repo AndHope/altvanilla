@@ -405,7 +405,7 @@
 4869 = {	# 4869 - Edessa
 	
 	# Misc
-	culture = armenian
+	culture = assyrian
 	religion = armenian_apostolic
 	
 	769.1.1 = {

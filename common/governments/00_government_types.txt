@@ -61,6 +61,32 @@ republic_government = {
 		use_legends = no
 	}
 
+	character_modifier = {
+		#Character modifiers
+		negate_stewardship_penalty_add = 1
+		monthly_income_mult = 0.1
+		character_capital_county_monthly_development_growth_add = 0.1
+
+		#Personality modifiers
+		ai_greed = 25
+
+		city_holding_holding_build_gold_cost = -0.10
+		city_holding_holding_build_speed = -0.10
+		city_holding_build_gold_cost = -0.10
+		city_holding_build_speed = -0.10
+		development_growth_factor = 0.1
+
+		#Military modifiers
+		garrison_size = 0.2
+		additional_fort_level = 1
+		naval_movement_speed_mult = 0.2
+		mercenary_hire_cost_mult = -0.2
+		embarkation_cost_mult = -0.2
+
+		#Vassal
+		feudal_government_vassal_opinion = -5
+	}
+
 	vassal_contract = { republic_government_obligations }
 
 	flag = government_can_raid_rule
@@ -225,7 +251,7 @@ tribal_government = {
 	character_modifier = {
 		levy_size = 0.25
 		#title_creation_cost_mult = -0.5
-		army_maintenance_mult = -0.75
+		army_maintenance_mult = -0.75 #was 0.5
 
 		feudal_government_vassal_opinion = -20
 		clan_government_vassal_opinion = -20
@@ -235,6 +261,7 @@ tribal_government = {
 
 		ai_war_chance = 0.25
 		monthly_prestige = 0.25
+		diplomatic_range_mult = -0.25 #added
 	}
 
 	flag = government_can_raid_rule
@@ -295,7 +322,7 @@ holy_order_government = {
 		use_legends = no
 	}
 
-	valid_holdings = { castle_holding city_holding }
+	valid_holdings = { castle_holding } #city_holding 
 
 	flag = cannot_be_vassal_or_liege
 	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).

@@ -10,8 +10,9 @@
 	}
 	867.1.1 = {
 		buildings = {
+			tribe_02
 			war_camps_02
-			market_villages_04
+			market_villages_02
 			palisades_02
 		}
 	}

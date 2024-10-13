@@ -105,7 +105,7 @@ sardinian = {
 		tradition_stalwart_defenders
 		tradition_fishermen
 		tradition_isolationist
-		tradition_practiced_pirates #raided muslims
+		#tradition_practiced_pirates #raided muslims
 	}
 	
 	name_list = name_list_sardinian
@@ -136,7 +136,7 @@ sicilian = {
 		tradition_poetry
 		tradition_republican_legacy
 		tradition_fishermen
-		tradition_practiced_pirates #raided muslims
+		#tradition_practiced_pirates #raided muslims
 	}
 	
 	name_list = name_list_sicilian

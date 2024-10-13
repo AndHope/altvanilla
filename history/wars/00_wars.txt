@@ -8,7 +8,7 @@ war = {
 		d_krete
 	}
 	casus_belli = ducal_conquest_cb
-	attackers = { 145196 }
+	attackers = { 145113 145196 145122 145194 145931 }
 	defenders = { 159525 }
 }
 

@@ -465,8 +465,22 @@
 			add_prestige = 5000
 			add_piety = 500
 			add_dread = high_dread
+
+			add_perk = thoughtful_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+
 			set_relation_friend = { reason = friend_generic_history target = character:1700 }
 			set_relation_friend = { reason = friend_generic_history target = character:159137 }
+			reverse_add_opinion = {
+				modifier = event_negotiated_alliance_opinion
+				target = character:159137
+			}
+			create_alliance = {
+				target = character:159137
+				allied_through_owner = this
+				allied_through_target = character:159137
+			}
 			spawn_army = {
 				name = event_troop_default_name
 				men_at_arms = {
@@ -530,18 +544,21 @@
 		effect = {
 			dynasty = {
 				add_dynasty_prestige = 30000
-				add_dynasty_prestige_level = -2
+				add_dynasty_prestige_level = -4
 				add_dynasty_perk = warfare_legacy_1
 				add_dynasty_perk = warfare_legacy_2
 				add_dynasty_perk = warfare_legacy_3
 				add_dynasty_perk = warfare_legacy_4
-				add_dynasty_perk = warfare_legacy_5
-				add_dynasty_perk = guile_legacy_1
-				add_dynasty_perk = guile_legacy_2
-				add_dynasty_perk = glory_legacy_1
-				add_dynasty_perk = glory_legacy_2
+				add_dynasty_perk = RICE_tarim_basin_silk_road_legacy_1
+				add_dynasty_perk = RICE_tarim_basin_silk_road_legacy_2
+				add_dynasty_perk = RICE_tarim_basin_silk_road_legacy_3
+				add_dynasty_perk = RICE_tarim_basin_silk_road_legacy_4
+				add_dynasty_perk = RICE_tarim_basin_silk_road_legacy_5
+
 				add_dynasty_perk = law_legacy_1
 				add_dynasty_perk = law_legacy_2
+				add_dynasty_perk = fp1_pillage_legacy_1
+				add_dynasty_perk = fp1_pillage_legacy_2
 
 			}
 		}
@@ -571,6 +588,10 @@
 			add_gold = 999
 			add_prestige = 5000
 			add_piety = 500
+			
+			add_perk = thoughtful_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
 		}
 	}
 	899.1.1 = {

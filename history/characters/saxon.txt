@@ -123,7 +123,7 @@
 			check_can_recruit = no
 			size = 3
 		}
-		add_piety = 750 # This period of life dominated by holy wars in southern Italy.
+		add_piety = 750
 		effect = {
 			learn_language = language_norse
 			add_dread = high_dread

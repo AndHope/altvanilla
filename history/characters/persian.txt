@@ -1810,6 +1810,10 @@
 			add_perk = never_back_down_perk
 			add_perk = kingsguard_perk
 
+			add_perk = thoughtful_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+
 			add_perk = meritocracy_perk
 			add_perk = large_levies_perk
 			add_perk = soon_forgiven_perk
@@ -1904,14 +1908,16 @@
 		effect = {
 			dynasty = {
 				add_dynasty_prestige = 30000
-				add_dynasty_prestige_level = -2
+				add_dynasty_prestige_level = -4
 				add_dynasty_perk = warfare_legacy_1
 				add_dynasty_perk = warfare_legacy_2
 				add_dynasty_perk = warfare_legacy_3
 				add_dynasty_perk = warfare_legacy_4
-				add_dynasty_perk = warfare_legacy_5
-				add_dynasty_perk = guile_legacy_1
-				add_dynasty_perk = guile_legacy_2
+				add_dynasty_perk = RICE_tarim_basin_silk_road_legacy_1
+				add_dynasty_perk = RICE_tarim_basin_silk_road_legacy_2
+				add_dynasty_perk = RICE_tarim_basin_silk_road_legacy_3
+				add_dynasty_perk = RICE_tarim_basin_silk_road_legacy_4
+				add_dynasty_perk = RICE_tarim_basin_silk_road_legacy_5
 
 				add_dynasty_perk = glory_legacy_1
 				add_dynasty_perk = glory_legacy_2

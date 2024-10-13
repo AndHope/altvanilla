@@ -2816,12 +2816,12 @@ e_latin_empire = {
 
 k_pechenegs = {
 	#Pechenegs in the Pontic Steppe
-	901.1.1 = {
+	800.1.1 = {
 		government = tribal_government	#Migration to Hungary.
 		liege = 0
 	}
-	948.1.1 = {
-		holder = pecheneg000001
+	867.1.1 = {
+		holder = 180236
 	}
 	988.1.1 = {
 		holder = pecheneg000002
@@ -4043,25 +4043,25 @@ e_byzantium = {
 					type = varangian_guards
 					check_can_recruit = no 
 					title = title:e_byzantium
-					size = 4
+					size = 6
 				}
 				create_maa_regiment = {
 					type = varangian_guards
 					check_can_recruit = no 
 					title = title:e_byzantium
-					size = 4
+					size = 6
 				}
 				create_maa_regiment = {
 					type = cataphract
 					check_can_recruit = no 
 					title = title:e_byzantium
-					size = 4
+					size = 6
 				}
 				create_maa_regiment = {
 					type = cataphract
 					check_can_recruit = no 
 					title = title:e_byzantium
-					size = 4
+					size = 6
 				}
 			}
 		}
@@ -4646,7 +4646,7 @@ k_asturias = {
 	}
 	910.12.20 = {
 		holder = 0
-		de_jure_liege = 0
+		#de_jure_liege = 0
 	}
 }
 

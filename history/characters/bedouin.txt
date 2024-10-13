@@ -5653,6 +5653,7 @@
 		add_gold = 200
 		add_prestige = 500
 		add_piety = 3500
+		add_piety_level = 4
 		add_perk = bellum_justum_perk
 		add_perk = parthian_tactics_perk
 		add_perk = envelopment_perk
@@ -5663,6 +5664,10 @@
 		add_perk = chivalric_dominance_perk
 		add_perk = never_back_down_perk
 		add_perk = kingsguard_perk
+
+		add_perk = thoughtful_perk
+		add_perk = ducal_conquest_perk
+		add_perk = forced_vassalage_perk
 		
 		add_perk = meritocracy_perk
 		add_perk = large_levies_perk
@@ -5777,16 +5782,19 @@
 	867.1.1 = {
 		effect = {
 			dynasty = {
-				add_dynasty_prestige = 12000
-				add_dynasty_prestige_level = -1
+				add_dynasty_prestige = 22000
+				add_dynasty_prestige_level = -5
 				add_dynasty_perk = warfare_legacy_1
 				add_dynasty_perk = warfare_legacy_2
 				add_dynasty_perk = warfare_legacy_3
-				add_dynasty_perk = guile_legacy_1
-				add_dynasty_perk = guile_legacy_2
 
 				add_dynasty_perk = glory_legacy_1
 				add_dynasty_perk = glory_legacy_2
+				add_dynasty_perk = fp1_pillage_legacy_1
+				add_dynasty_perk = fp1_pillage_legacy_2
+				add_dynasty_perk = fp1_pillage_legacy_3
+				add_dynasty_perk = fp1_pillage_legacy_4
+				add_dynasty_perk = fp1_pillage_legacy_5
 
 			}
 		}
@@ -6421,7 +6429,7 @@
 	name = "Abd-al-Aziz"
 	dynasty = 809 # Dulafid
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "persian"
 	father = 188697
 	815.1.1 = {
 		birth = yes
@@ -6855,7 +6863,7 @@
 	name = "Dulaf"
 	dynasty = 809
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "persian"
 	father = 163098
 	835.1.1 = {
 		birth = "835.1.1"
@@ -6869,7 +6877,7 @@
 	name = "Ahmad"
 	dynasty = 809
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "persian"
 	father = 163098
 	840.1.1 = {
 		birth = "840.1.1"
@@ -14229,7 +14237,7 @@ extra_bedouins_0002 = {
 	name = "Umar"
 	dynasty = 809
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "persian"
 	father = 163098
 	845.9.4 = {
 		birth = yes
@@ -14243,7 +14251,7 @@ extra_bedouins_0003 = { #see also his brother, extra_bedouins_0024
 	name = "al-Harith"
 	dynasty = 809
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "persian"
 	father = 163098
 	848.7.14 = {
 		birth = yes
@@ -14667,7 +14675,7 @@ extra_bedouins_0024 = { #historical, previously forgotten Dulafid scion
 	name = "Bakr"
 	dynasty = 809
 	religion = "ashari"
-	culture = "bedouin"
+	culture = "persian"
 	father = 163098
 	853.8.12 = {
 		birth = yes

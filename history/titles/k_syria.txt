@@ -2,6 +2,7 @@
 	867.1.1 = {	change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 	1178.1.1 = { change_development_level = 24 }
+
 }
 
 d_aleppo = {
@@ -1344,8 +1345,25 @@ d_antioch = {
 	791.1.1 = {
 		holder = 146050
 	}
-	860.1.1 = {
-		holder = 0
+	862.1.1 = {
+		liege = "e_byzantium"
+		holder = 145147
+		effect = {
+			holder = {
+				create_maa_regiment = {
+					type = akritai
+					check_can_recruit = no 
+					title = title:d_antioch
+					size = 2
+				}
+				create_maa_regiment = {
+					type = skoutatoi
+					check_can_recruit = no 
+					title = title:d_antioch
+					size = 1
+				}
+			}
+		}
 	}
 	969.1.1 = {
 		liege = "e_byzantium"

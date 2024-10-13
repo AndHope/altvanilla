@@ -1585,16 +1585,65 @@
 		add_spouse = 168075
 	}
 	855.1.1 = {
+		create_maa_regiment = {
+			type = druzhina
+			check_can_recruit = no
+			size = 4
+		}
+		create_maa_regiment = {
+			type = druzhina
+			check_can_recruit = no
+			size = 4
+		}
+		create_maa_regiment = {
+			type = hussar
+			check_can_recruit = no
+			size = 4
+		}
+		create_maa_regiment = {
+			type = hussar
+			check_can_recruit = no
+			size = 4
+		}
 		effect = {
 			set_relation_lover = { reason = lover_history target = character:168076 } 	#Meets Vasilka's mother.
 		}
 	}
 	864.1.1 = {
-		religion = "slavic_pagan"
+		religion = "orthodox"
 		capital = "c_dorostorum"
 		effect = {
 			set_relation_rival = { target = character:70383 reason = rival_historical }	#Vladimir does not take kindly to Christianity.
 			set_relation_potential_friend = character:712	#Simeon, on the other hand, is born just after/before the conversion, and he has high hopes.
+			spawn_army = {
+				name = event_troop_default_name
+				men_at_arms = {
+					type = druzhina
+					stacks = 2
+					}
+				men_at_arms = {
+					type = hussar
+					stacks = 1
+				}
+				location = province:4165
+				origin = province:4165
+				inheritable = yes
+			}
+			spawn_army = {
+				name = event_troop_default_name
+				men_at_arms = {
+					type = druzhina
+					stacks = 2
+					}
+				men_at_arms = {
+					type = hussar
+					stacks = 1
+				}
+				location = province:4165
+				origin = province:4165
+				inheritable = yes
+			}
+			
 		}
 	}
 	889 = {

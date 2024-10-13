@@ -54,12 +54,11 @@
 			size = 6
 		}
 		effect = {
-			add_gold = 55555
-			add_prestige = 2500
-			add_piety = 2500
+			add_gold = 25555
+			add_prestige = 1000
+			add_piety = 2000
 			add_prestige_level = 4
 			add_piety_level = 4
-			#add_dynasty_prestige = 9999
 			add_diplomacy_lifestyle_perk_points = 5
 			#add_intrigue_lifestyle_perk_points = 5
 			#add_stewardship_lifestyle_perk_points = 5
@@ -146,7 +145,7 @@
 		effect = {
 			dynasty = {
 				add_dynasty_prestige = 110000
-				add_dynasty_prestige_level = -2
+				add_dynasty_prestige_level = -3
 
 				add_dynasty_perk = kin_legacy_1
 				add_dynasty_perk = kin_legacy_2
@@ -10358,7 +10357,7 @@
 			add_perk = pedagogy_perk
 			add_perk = open_minded_perk
 			add_piety = 750
-			add_piety_level = 2
+			add_piety_level = 4
 			learn_language = language_latin
 			learn_language = language_french
 			learn_language = language_arabic
@@ -10429,7 +10428,7 @@
 			add_perk = pedagogy_perk
 			add_perk = open_minded_perk
 			add_piety = 750
-			add_piety_level = 2
+			add_piety_level = 4
 			learn_language = language_latin
 			learn_language = language_french
 			learn_language = language_arabic
@@ -17710,12 +17709,34 @@ ckbr0002 = {
 	860.1.1 = {
 		effect = {
 			dynasty = {
-				add_dynasty_prestige = 20000
-				add_dynasty_prestige_level = -1
+				add_dynasty_prestige = 16000
+				add_dynasty_prestige_level = -2
 				add_dynasty_perk = warfare_legacy_1
 				add_dynasty_perk = warfare_legacy_2
 				add_dynasty_perk = warfare_legacy_3
-				add_dynasty_perk = warfare_legacy_4
+				add_dynasty_perk = glory_legacy_1
+				add_dynasty_perk = glory_legacy_2
+				add_dynasty_perk = ep3_administrative_legacy_1
+				add_dynasty_perk = ep3_administrative_legacy_2
+
+			}
+		}
+	}
+	865.1.1 = {
+		effect = {
+			domicile ?= {
+				#Main Building
+				add_domicile_building = estate_main_02
+				#
+				add_domicile_building = bath_01
+				add_domicile_building = bath_02
+				#
+				add_domicile_building = stable_01
+				#
+				add_domicile_building = grain_field_01
+				add_domicile_building = grain_field_02
+				#
+				add_domicile_building = storage_01
 
 			}
 		}
@@ -17756,7 +17777,7 @@ ckbr0002 = {
 			}
 			add_opinion = {
 				modifier = perk_negotiated_alliance_opinion
-				target = character:ckbr0002
+				target = character:1700
 			}
 			reverse_add_opinion = {
 				modifier = event_negotiated_alliance_opinion
@@ -17844,6 +17865,20 @@ ckbr0002 = {
 	810.1.1 = {
 		birth = "810.1.1"
 	}
+
+	860.1.1 = {
+		effect = {
+			dynasty = {
+				add_dynasty_prestige = 8000
+				add_dynasty_prestige_level = -1
+				add_dynasty_perk = ep3_administrative_legacy_1
+				add_dynasty_perk = ep3_administrative_legacy_2
+				add_dynasty_perk = ep3_administrative_legacy_3
+
+			}
+		}
+	}
+
 	867.1.1 = {
 		effect = {
 			domicile ?= {
@@ -18077,6 +18112,20 @@ ckbr0002 = {
 	810.1.1 = {
 		birth = "810.1.1"
 	}
+
+	860.1.1 = {
+		effect = {
+			dynasty = {
+				add_dynasty_prestige = 8000
+				add_dynasty_prestige_level = -1
+				add_dynasty_perk = ep3_administrative_legacy_1
+				add_dynasty_perk = ep3_administrative_legacy_2
+				add_dynasty_perk = ep3_administrative_legacy_3
+
+			}
+		}
+	}
+
 	867.1.1 = {
 		effect = {
 			add_opinion = {

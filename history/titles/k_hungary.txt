@@ -64,7 +64,7 @@
 		holder = 146142
 	}
 	835.1.1 = {
-		holder = 0
+		holder = 168072
 	}
 	895.1.1 = {
 		reset_name = yes
@@ -164,7 +164,7 @@
 
 d_visegrad = {
 	805.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 146172
 		government = tribal_government
 	}
@@ -403,7 +403,7 @@ c_komarom = {
 		holder = 168072
 	}
 	867.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -540,7 +540,7 @@ c_esztergom = {
 		holder = 168072
 	}
 	867.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -661,7 +661,7 @@ c_szekesfehervar = {
 		holder = 168072
 	}
 	867.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -818,7 +818,7 @@ c_hewes = {
 
 d_somogy = {
 	805.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 146172
 	}
 	808.1.1 = {
@@ -834,7 +834,7 @@ d_somogy = {
 		holder = 168072
 	}
 	867.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -917,7 +917,7 @@ c_somogy = {
 		holder = 168072
 	}
 	867.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -1027,7 +1027,7 @@ c_kolon = {
 		holder = 168072
 	}
 	867.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -1137,7 +1137,7 @@ c_tolna = {
 		holder = 168072
 	}
 	867.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -1245,7 +1245,7 @@ c_baranya = {
 		holder = 168072
 	}
 	867.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -1310,7 +1310,7 @@ d_nyitra = {
 		holder = 187010
 	}
 	850.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -1409,7 +1409,7 @@ c_nyitra = {
 		holder = 168071
 	}
 	850.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -1474,7 +1474,7 @@ c_gemer = {
 		holder = 187003 #Svatopluk
 	}
 	866.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -1536,7 +1536,7 @@ c_orava = {
 		holder = 273011
 	}
 	865.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -1607,7 +1607,7 @@ c_trenscen = {
 		liege = "k_moravia"
 	}
 	846.8.15 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -1682,7 +1682,7 @@ c_lipto = {
 		holder = 273011
 	}
 	865.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -1746,7 +1746,7 @@ c_zolyom = {
 		holder = 187010
 	}
 	850.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -1811,7 +1811,7 @@ c_bars = {
 		holder = 187010
 	}
 	850.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -1903,7 +1903,7 @@ c_hont = {
 		holder = 168071
 	}
 	850.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -2020,7 +2020,7 @@ c_poszony = {
 		holder = 187002
 	}
 	866.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -2097,7 +2097,7 @@ d_ungvar = {
 		holder = 146179
 	}
 	859.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -2209,7 +2209,7 @@ c_ungvar = {
 		holder = 74045
 	}
 	867.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -2270,7 +2270,7 @@ c_zemplen = {
 		holder = 146179
 	}
 	859.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -2337,7 +2337,7 @@ c_borsod = {
 		holder = 187003
 	}
 	866.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -2399,7 +2399,7 @@ c_saris = {
 		holder = 273011
 	}
 	865.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -2472,7 +2472,7 @@ c_spis = {
 		holder = 273011
 	}
 	865.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -2547,7 +2547,7 @@ c_abauj = {
 		holder = 187003 #Svatopluk
 	}
 	866.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -2727,7 +2727,7 @@ c_marmaros = {
 		holder = 146152
 	}
 	852.1.1 = {
-		holder = 168069
+		holder = 168072
 	}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
@@ -2851,13 +2851,13 @@ d_transylvania = {
 		holder = 146151
 	}
 	804.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 	}
 	812.1.1 = {
 		holder = 146152
 	}
 	852.1.1 = {
-		holder = 168069
+		holder = 168072
 	}
 	895.1.1 = {
 		liege = "k_magyar"
@@ -2956,7 +2956,7 @@ c_feher = {
 		holder = 146152
 	}
 	852.1.1 = {
-		holder = 168069
+		holder = 168072
 	}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
@@ -3177,7 +3177,7 @@ c_fogaras = {
 		holder = 146152
 	}
 	852.1.1 = {
-		holder = 168069
+		holder = 168072
 	}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
@@ -3239,7 +3239,7 @@ c_torda = {
 		holder = 146152
 	}
 	852.1.1 = {
-		holder = 168069
+		holder = 168072
 	}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
@@ -3377,7 +3377,7 @@ c_hunyad = {
 		holder = 146152
 	}
 	852.1.1 = {
-		holder = 168069
+		holder = 168072
 	}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
@@ -3413,7 +3413,7 @@ c_hunyad = {
 
 d_bihar = {
 	804.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 146153
 		government = tribal_government
 	}
@@ -3820,12 +3820,12 @@ c_szatmar = {
 
 d_temes = {
 	804.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 146153
 		government = tribal_government
 	}
 	860.1.1 = {
-		holder = 168290
+		holder = 168072
 	}
 	895.1.1 = {
 		liege = "k_magyar"
@@ -4246,7 +4246,7 @@ c_csanad = {
 
 d_bacs = {
 	805.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 146172
 		government = tribal_government
 	}
@@ -4314,7 +4314,7 @@ c_bacs = {
 		liege = "d_temes"
 	}
 	867.1.1 = {
-		holder = 168290
+		holder = 168072
 	}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
@@ -4370,7 +4370,7 @@ c_bodrog = {
 		liege = "d_temes"
 	}
 	867.1.1 = {
-		holder = 168290
+		holder = 168072
 	}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
@@ -4503,7 +4503,7 @@ d_gyor = {
 	1178.1.1 = { change_development_level = 15 }
 
 	805.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 146172
 	}
 	808.1.1 = {
@@ -4519,7 +4519,7 @@ d_gyor = {
 		holder = 168072
 	}
 	867.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -4602,7 +4602,7 @@ c_gyor = {
 		holder = 168072
 	}
 	867.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -4709,7 +4709,7 @@ c_sopron = {
 		holder = 168072
 	}
 	867.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -4816,7 +4816,7 @@ c_vas = {
 		holder = 168072
 	}
 	867.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -4926,7 +4926,7 @@ c_veszprem = {
 		holder = 168072
 	}
 	867.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 		holder = 168072
 		government = tribal_government
 	}
@@ -5057,7 +5057,7 @@ c_szerem = {
 		holder = lampardas_1 # Andronikos lampardas
 	}
 	1185.1.1 = {
-		liege = "k_bulgaria"
+		liege = "k_hungary"
 	}
 	1185.1.1 = {
 		holder = 217502 #Kaloyan

@@ -1752,7 +1752,7 @@
 		effect = {
 			dynasty = {
 				add_dynasty_prestige = 65000
-				add_dynasty_prestige_level = -2
+				add_dynasty_prestige_level = -4
 				add_dynasty_perk = kin_legacy_1
 				add_dynasty_perk = kin_legacy_2
 				add_dynasty_perk = glory_legacy_1

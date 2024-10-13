@@ -644,6 +644,11 @@
 			add_gold = 999
 			add_prestige = 2000
 			add_piety = 3500
+			add_piety_level = 4
+
+			add_perk = thoughtful_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
 
 			spawn_army = {
 				name = event_troop_default_name

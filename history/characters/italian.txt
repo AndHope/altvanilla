@@ -7136,8 +7136,9 @@
 		size = 2
 	}
 	effect = {
-		add_gold = 999
+		add_gold = 1500
 		add_piety = 5000
+		add_piety_level = 5
 		add_diplomacy_lifestyle_perk_points = 5
 		add_perk = faithful_perk
 		add_perk = zealous_proselytizer_perk

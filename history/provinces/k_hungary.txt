@@ -5,6 +5,14 @@
 	culture = avar
 	religion = tengri_pagan
 	holding = tribal_holding
+	867.1.1 = {
+		buildings = {
+			tribe_02
+			war_camps_02
+			market_villages_02
+			palisades_02
+		}
+	}
 	
 	935.1.1 = {
 		holding = tribal_holding

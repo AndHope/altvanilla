@@ -8923,11 +8923,10 @@ levantine000010 = { #fictional ruler of Banu Kilab
 				check_can_recruit = no
 				size = 8
 			}
-			add_gold = 9000
-			add_prestige = 2000
-			add_piety = 3500
-			add_prestige_level = 3
-			add_piety_level = 4
+			add_gold = 5000
+			add_prestige = 1000
+			add_piety = 3000
+			add_piety_level = 5
 
 			add_perk = befriend_perk
 			add_perk = confidants_perk
@@ -9013,7 +9012,7 @@ levantine000010 = { #fictional ruler of Banu Kilab
 		effect = {
 			dynasty = {
 				add_dynasty_prestige = 65000
-				add_dynasty_prestige_level = -1
+				add_dynasty_prestige_level = -2
 
 				add_dynasty_perk = kin_legacy_1
 				add_dynasty_perk = kin_legacy_2
@@ -9952,14 +9951,13 @@ levantine000010 = { #fictional ruler of Banu Kilab
 		}
 		add_spouse = 73927 # Ushar (andalusian.txt)
 		effect = {
-			add_gold = 9999
-			add_prestige = 5000
-			add_piety = 5000
-			add_prestige_level = 5
+			add_gold = 5000
+			add_prestige = 1000
+			add_piety = 3000
 			add_piety_level = 5
 			if = {
 				limit = { has_realm_law = crown_authority_0 }
-				add_realm_law = crown_authority_2
+				add_realm_law = crown_authority_1
 			}
 		}
 	}
@@ -9973,7 +9971,7 @@ levantine000010 = { #fictional ruler of Banu Kilab
 		effect = {
 			dynasty = {
 				add_dynasty_prestige = 65000
-				add_dynasty_prestige_level = -1
+				add_dynasty_prestige_level = -2
 				add_dynasty_perk = kin_legacy_1
 				add_dynasty_perk = kin_legacy_2
 				add_dynasty_perk = glory_legacy_1

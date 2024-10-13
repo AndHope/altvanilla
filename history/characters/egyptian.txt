@@ -1482,9 +1482,10 @@
 		birth = "835.9.20"
 	}
 	835.9.20 = {
-		add_gold = 2000
+		add_gold = 1000
 		add_prestige = 500
-		add_piety = 3500
+		add_piety = 2500
+		add_piety_level = 4
 		set_relation_friend = { reason = friend_generic_history target = character:34014 }
 		create_maa_regiment = {
 			type = camel_rider

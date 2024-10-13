@@ -14,18 +14,6 @@
 	join_era = culture_era_early_medieval
 }
 
-950.1.1 = {
-	# Tribal Innovations
-	discover_innovation = innovation_currency_01
-	discover_innovation = innovation_motte
-	discover_innovation = innovation_bannus
-	discover_innovation = innovation_quilted_armor
-	discover_innovation = innovation_catapult
-	discover_innovation = innovation_barracks
-	
-	join_era = culture_era_early_medieval
-}
-
 867.1.1 = {
 	# Early Medieval Innovations
 	discover_innovation = innovation_motte
@@ -36,6 +24,18 @@
 	discover_innovation = innovation_hereditary_rule
 	discover_innovation = innovation_manorialism
 	discover_innovation = innovation_house_soldiers
+}
+
+950.1.1 = {
+	# Tribal Innovations
+	discover_innovation = innovation_currency_01
+	discover_innovation = innovation_motte
+	discover_innovation = innovation_bannus
+	discover_innovation = innovation_quilted_armor
+	discover_innovation = innovation_catapult
+	discover_innovation = innovation_barracks
+	
+	join_era = culture_era_early_medieval
 }
 
 1150.1.1 = {

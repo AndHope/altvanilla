@@ -9890,11 +9890,11 @@
 			check_can_recruit = no
 			size = 8
 		}
-		add_piety = 750 # This period of life dominated by holy wars in southern Italy.
 		set_relation_friend = { reason = friend_generic_history target = character:1700 }
 		effect = {
-			add_prestige = 3500
-			add_piety = 3500
+			add_prestige = 1000
+			add_piety = 3500 # This period of life dominated by holy wars in southern Italy.
+			add_piety_level = 4
 			create_alliance = {
 				target = character:1700
 				allied_through_owner = this
@@ -9907,7 +9907,7 @@
 		effect = {
 			dynasty = {
 				add_dynasty_prestige = 80000
-				add_dynasty_prestige_level = -1
+				add_dynasty_prestige_level = -2
 				add_dynasty_perk = warfare_legacy_1
 				add_dynasty_perk = warfare_legacy_2
 				add_dynasty_perk = guile_legacy_1
@@ -14670,6 +14670,7 @@
 		effect = {
 			add_prestige = 500
 			add_piety = 500
+			add_piety_level = 2
 			add_opinion = {
 				modifier = perk_negotiated_alliance_opinion
 				target = character:70019

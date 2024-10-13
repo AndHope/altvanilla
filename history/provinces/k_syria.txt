@@ -2,7 +2,7 @@
 4890 = {	# 4890 - Qalat Ar-Rum
 	
 	# Misc
-	culture = armenian
+	culture = assyrian
 	religion = armenian_apostolic
 	
 	# History
@@ -18,7 +18,7 @@
 4891 = {	# 4891 - Kaisum
 	
 	# Misc
-	culture = armenian
+	culture = assyrian
 	religion = armenian_apostolic
 	
 	# History
@@ -34,7 +34,7 @@
 4892 = {	# 4892 - Bahasna
 	
 	# Misc
-	culture = armenian
+	culture = assyrian
 	religion = armenian_apostolic
 	
 	# History
@@ -50,7 +50,7 @@
 4893 = {	# 4893 - Marash
 	
 	# Misc
-	culture = armenian
+	culture = assyrian
 	religion = armenian_apostolic
 	holding = castle_holding
 	867.1.1 = {
@@ -68,7 +68,7 @@
 4894 = {	# 4894 - Samosata
 	
 	# Misc
-	culture = armenian
+	culture = assyrian
 	religion = armenian_apostolic
 	holding = castle_holding
 	867.1.1 = {
@@ -86,7 +86,7 @@
 4899 = {	# 4899 - Duluk-Teluch
 	
 	# Misc
-	culture = armenian
+	culture = assyrian
 	religion = armenian_apostolic
 	
 	# History
@@ -102,7 +102,7 @@
 5900 = {	# 5900 - Aintab
 	
 	# Misc
-	culture = armenian
+	culture = assyrian
 	religion = armenian_apostolic
 	
 	# History
@@ -113,7 +113,7 @@
 5902 = {	# 5902 - Jarabulus
 	
 	# Misc
-	culture = armenian
+	culture = assyrian
 	religion = armenian_apostolic
 	
 	# History

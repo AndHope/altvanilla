@@ -62,6 +62,26 @@ d_cyprus = {
 		liege = 0
 		holder = 0
 	}
+	862.1.1 = {
+		liege = "e_byzantium"
+		holder = 145147
+		effect = {
+			holder = {
+				create_maa_regiment = {
+					type = akritai
+					check_can_recruit = no 
+					title = title:d_cyprus
+					size = 2
+				}
+				create_maa_regiment = {
+					type = skoutatoi
+					check_can_recruit = no 
+					title = title:d_cyprus
+					size = 1
+				}
+			}
+		}
+	}
 	965.1.1 = {
 		liege = "e_byzantium"
 	}

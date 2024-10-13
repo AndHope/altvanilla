@@ -43,7 +43,7 @@
 	discover_innovation = innovation_heraldry
 	discover_innovation = innovation_hoardings
 	discover_innovation = innovation_castle_baileys
-	discover_innovation = innovation_men_at_arms
+	#discover_innovation = innovation_men_at_arms
 	discover_innovation = innovation_burhs
 	discover_innovation = innovation_manorialism
 }

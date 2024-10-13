@@ -9525,8 +9525,8 @@
 	861.1.1 = {
 		add_spouse = 306004 #Fictional
 		effect = {
-			add_gold = 999
-			add_prestige = 5000
+			add_gold = 800
+			add_prestige = 4500
 			add_piety = 500
 		}
 	}
@@ -9587,7 +9587,7 @@
 	844.1.1 = {
 		add_spouse = 306003 #Fictional, her name is lost but she was supposed to be highborn
 		effect = {
-			add_gold = 100
+			add_gold = 800
 			learn_language = language_french
 			add_perk = bellum_justum_perk
 			add_perk = parthian_tactics_perk
@@ -9617,7 +9617,7 @@
 			add_dread = high_dread
 			add_martial_lifestyle_perk_points = 10
 			add_gold = 999
-			add_prestige = 5000
+			add_prestige = 4500
 			add_piety = 500
 			create_maa_regiment = {
 				type = horse_archers
@@ -9739,18 +9739,20 @@
 		effect = {
 			dynasty = {
 				add_dynasty_prestige = 30000
-				add_dynasty_prestige_level = -2
+				add_dynasty_prestige_level = -4
 				add_dynasty_perk = warfare_legacy_1
 				add_dynasty_perk = warfare_legacy_2
 				add_dynasty_perk = warfare_legacy_3
 				add_dynasty_perk = warfare_legacy_4
-				add_dynasty_perk = warfare_legacy_5
 				add_dynasty_perk = guile_legacy_1
 				add_dynasty_perk = guile_legacy_2
 				add_dynasty_perk = glory_legacy_1
 				add_dynasty_perk = glory_legacy_2
-				add_dynasty_perk = law_legacy_1
-				add_dynasty_perk = law_legacy_2
+				add_dynasty_perk = fp1_pillage_legacy_1
+				add_dynasty_perk = fp1_pillage_legacy_2
+				add_dynasty_perk = fp1_pillage_legacy_3
+				add_dynasty_perk = fp1_pillage_legacy_4
+				add_dynasty_perk = fp1_pillage_legacy_5
 
 			}
 		}

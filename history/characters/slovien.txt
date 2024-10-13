@@ -81,7 +81,7 @@
 		birth = "830.1.1"
 	}
 	831.1.1 = {
-		religion = "slavic_pagan"
+		religion = "catholic"
 		create_maa_regiment = {
 			type = druzhina
 			check_can_recruit = no
@@ -116,8 +116,8 @@
 			add_perk = soon_forgiven_perk
 			add_perk = toe_the_line_perk
 			add_gold = 500
-			add_prestige = 3500
-			add_piety = 2500
+			add_prestige = 2500
+			add_piety = 1000
 			spawn_army = {
 				name = event_troop_default_name
 				men_at_arms = {
@@ -126,7 +126,11 @@
 					}
 				men_at_arms = {
 					type = bowmen
-					stacks = 4
+					stacks = 2
+				}
+				men_at_arms = {
+					type = hussar
+					stacks = 2
 				}
 				location = province:4165
 				origin = province:4165
@@ -140,12 +144,17 @@
 					}
 				men_at_arms = {
 					type = bowmen
-					stacks = 4
+					stacks = 2
+				}
+				men_at_arms = {
+					type = hussar
+					stacks = 2
 				}
 				location = province:4165
 				origin = province:4165
 				inheritable = yes
 			}
+			
 			set_relation_friend = { reason = friend_generic_history target = character:82235 }
 			add_opinion = {
 				modifier = perk_negotiated_alliance_opinion
@@ -178,6 +187,8 @@
 		}
 	
 	}
+	
+	
 	869.1.1 = {
 		death = "869.1.1"
 	}
